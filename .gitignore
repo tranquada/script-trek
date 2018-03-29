@@ -1,0 +1,5 @@
+# Block jupyter notebook checkpoints
+/.ipynb_checkpoints
+
+# Don't upload raw text files to GitHub
+*.txt
