@@ -1,4 +1,3 @@
-import re                              # Python library regex module
 import json                            # Python json handling
 import pandas as pd                    # Data handling
 import numpy as np                     # More data handling
@@ -19,7 +18,7 @@ PATH = './scripts/{}'
 
 
 # PARSING UTILITY functions
-def code(data, code):
+def encode(data, code):
     """Produces the type signature of the input string using the appropriate
     code mapping specified."""
     return np.array([MAPPINGS[code].iloc[char] for char in data])
@@ -40,18 +39,13 @@ class TxtLoader(object):
             [bytearray(x, encoding="latin-1") for x in self.data['raw']]
         )
         # Use bytearrays to parse line signatures
-        self.data['code8'] = np.array(
-            [code(x, 'code8') for x in self.data['bytes']]
-        )
-        self.data['code10'] = np.array(
-            [code(x, 'code10') for x in self.data['bytes']]
-        )
-        self.data['punc2'] = np.array(
-            [code(x, 'punc2') for x in self.data['bytes']]
-        )
-        self.data['punc8'] = np.array(
-            [code(x, 'punc8') for x in self.data['bytes']]
-        )
-        self.data['punc10'] = np.array(
-            [code(x, 'punc10') for x in self.data['bytes']]
+        self.encode_sig('code8')
+        self.encode_sig('code10')
+        self.encode_sig('punc2')
+        self.encode_sig('punc8')
+        self.encode_sig('punc10')
+
+    def encode_sig(self, code):
+        self.data[code] = np.array(
+            [encode(x, code) for x in self.data['bytes']]
         )
