@@ -4,5 +4,5 @@
 # Don't upload raw text files to GitHub
 *.txt
 
-# Bloack Python cache
+# Block Python cache
 /__pycache__
