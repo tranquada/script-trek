@@ -1,4 +1,5 @@
 from collections import Counter
+import pandas as pd
 import numpy as np
 
 
@@ -24,3 +25,7 @@ class Scanner(object):
         for x in self.data['bytes']:
             for c in x:
                 self.data['counts'][c] += 1
+
+        self.chars = pd.DataFrame()
+        for x in self.data['counts']:
+            self.chars[x] = [self.data['counts'][x]]
