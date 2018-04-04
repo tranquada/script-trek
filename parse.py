@@ -8,11 +8,26 @@ import numpy as np                     # More data handling
 
 
 # GLOBAL VARIABLES
-BYTE_MAPPINGS = 'byte_mappings.csv'
-MAPPINGS = pd.read_csv(BYTE_MAPPINGS, index_col='bytes')
-SCRIPTS = './scripts/'
-PATH = './scripts/{}'
+BYTE_MAPPINGS = 'byte_mappings.csv'  # Byte to character and signature codes
+MAPPINGS = pd.read_csv(BYTE_MAPPINGS, index_col='bytes')  # Loads codes to df
 
+SCRIPTS = './scripts/'  # Specifies scripts folder location
+PATH = SCRIPTS + '{}'  # Specifies path to script folder for loading files
+
+TABS = [9]                             # Byte code for tab
+SPACES = [32]                          # Byte code for space
+QUOTES = [34]                          # Byte code for double quote
+APOSTROPHES = [39]                     # Byte code for single quote
+PARENTHESES = [40, 41]                 # Byte codes for parentheses
+COMMAS = [44]                          # Byte code for comma
+HYPHENS = [45]                         # Byte code for hyphen
+PERIOD = [46]                          # Byte code for period
+SLASHES = [47]                         # Byte code for forward slash
+COLONS = [58]                          # Byte code for colon
+NUMS = [x for x in range(48, 58)]      # Byte code range for numbers
+UPPERS = [x for x in range(65, 91)]    # Byte code range for uppercase chars
+LOWERS = [x for x in range(97, 123)]   # Byte code range for lowercase chars
+EXOTICS = [x for x in range(128, 256)]  # Byte code range for exotic chars
 
 # PANDAS UTILITY FUNCTIONS
 
@@ -21,7 +36,7 @@ PATH = './scripts/{}'
 def encode(data, code):
     """Produces the type signature of the input string using the appropriate
     code mapping specified."""
-    return np.array([MAPPINGS[code].iloc[char] for char in data])
+    return [MAPPINGS[code].iloc[char] for char in data]
 
 
 # TxtLoader OBJECT
@@ -38,14 +53,20 @@ class TxtLoader(object):
         self.data['bytes'] = np.array(
             [bytearray(x, encoding="latin-1") for x in self.data['raw']]
         )
-        # Use bytearrays to parse line signatures
-        self.encode_sig('code8')
-        self.encode_sig('code10')
-        self.encode_sig('punc2')
-        self.encode_sig('punc8')
-        self.encode_sig('punc10')
+        # Convert raw strings into lists of tokens
+        self.data['tokens'] = np.array([x.split() for x in self.data['raw']])
 
     def encode_sig(self, code):
-        self.data[code] = np.array(
+        """Creates a new signature encoding for all lines based on the given
+        code and adds it to the data dictionary. Signature code must be one of
+        the columns included in the BYTE_MAPPINGS file."""
+
+        self.data[code] = pd.DataFrame(
             [encode(x, code) for x in self.data['bytes']]
         )
+
+    def export_csv(self, file):
+        """Exports the raw line string data to a CSV file. Must pass the
+        desired filename for CSV export."""
+
+        pd.DataFrame(self.data['raw']).to_csv(file)
