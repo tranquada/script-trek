@@ -6,3 +6,6 @@
 
 # Block Python cache
 /__pycache__
+
+# Don't monitor scrapwork.ipynb changes
+scrapwork.ipynb
