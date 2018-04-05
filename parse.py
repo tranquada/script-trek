@@ -119,6 +119,13 @@ class TxtLoader(object):
                 'n_nonwhitespaces': self.regex_count(NONWHITESPACES, i),
                 'n_tokens': self.token_count(i),
             }
+
+            metrics['p_tab'] = metrics['n_tab'] / metrics['n_whitespaces']
+            metrics['p_space'] = metrics['n_space'] / metrics['n_whitespaces']
+            metrics['p_lowers'] = metrics['n_lowers'] / metrics['n_letters']
+            metrics['p_uppers'] = metrics['n_uppers'] / metrics['n_letters']
+            metrics['p_nums'] = metrics['n_nums'] / metrics['n_letters']
+
             results = results.append(metrics, ignore_index=True)
         cols = list(results.columns.values)
         for x in cols:
@@ -142,5 +149,8 @@ class TxtLoader(object):
         pd.DataFrame(self.data['raw']).to_csv(file)
 
     def import_training(self, file):
+        """Imports training category annotations from an external CSV file.
+        Must pass filename when calling."""
+
         self.data['training'] = pd.read_csv(
             file, index_col='line_idx').drop(['line'], axis=1)
