@@ -54,16 +54,24 @@ class TxtLoader(object):
     def __init__(self, file):
         # Initialize internal data store as dict
         self.data = {}
+
         # Open file and read all lines into an array
         with open(PATH.format(file), encoding="latin-1") as f:
             self.data['raw'] = np.array(f.readlines())
+        print("1 > Lines loaded from file to data['raw']")
+
         # Convert raw strings into bytearrays
         self.data['bytes'] = np.array(
             [bytearray(x, encoding="latin-1") for x in self.data['raw']]
         )
+        print("2 > Bytearrays created and stored in data['bytes']")
+
         # Convert raw strings into lists of tokens
         self.data['tokens'] = np.array([x.split() for x in self.data['raw']])
+        print("3 > Tokens created and stored in data['tokens']")
+
         # Count key characters for analysis
+        print("4 > Writing metrics to data['metrics']")
         self.data['metrics'] = self.get_metrics()
 
     # Counting functions
