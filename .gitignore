@@ -9,3 +9,6 @@
 
 # Don't monitor scrapwork.ipynb changes
 scrapwork.ipynb
+
+# Ignore .numbers files used for manipulating csv training data
+*.numbers
