@@ -120,11 +120,21 @@ class TxtLoader(object):
                 'n_tokens': self.token_count(i),
             }
 
-            metrics['p_tab'] = metrics['n_tab'] / metrics['n_whitespaces']
-            metrics['p_space'] = metrics['n_space'] / metrics['n_whitespaces']
-            metrics['p_lowers'] = metrics['n_lowers'] / metrics['n_letters']
-            metrics['p_uppers'] = metrics['n_uppers'] / metrics['n_letters']
-            metrics['p_nums'] = metrics['n_nums'] / metrics['n_letters']
+            if metrics['n_whitespaces'] != 0:
+                metrics['p_tab'] = metrics['n_tab'] / metrics['n_whitespaces']
+                metrics['p_space'] = metrics['n_space'] / metrics['n_whitespaces']
+            else:
+                metrics['p_tab'] = 0.
+                metrics['p_space'] = 0.
+
+            if metrics['n_letters'] != 0:
+                metrics['p_lowers'] = metrics['n_lowers'] / metrics['n_letters']
+                metrics['p_uppers'] = metrics['n_uppers'] / metrics['n_letters']
+                metrics['p_nums'] = metrics['n_nums'] / metrics['n_letters']
+            else:
+                metrics['p_lowers'] = 0.
+                metrics['p_uppers'] = 0.
+                metrics['p_nums'] = 0.
 
             results = results.append(metrics, ignore_index=True)
         cols = list(results.columns.values)
