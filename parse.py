@@ -137,10 +137,17 @@ class TxtLoader(object):
                 metrics['p_nums'] = 0.
 
             results = results.append(metrics, ignore_index=True)
+
         cols = list(results.columns.values)
+        cols.remove('clean')
+        cols.remove('p_tab')
+        cols.remove('p_space')
+        cols.remove('p_lowers')
+        cols.remove('p_uppers')
+        cols.remove('p_nums')
+
         for x in cols:
-            if x != 'clean':
-                results[x] = results[x].astype(int)
+            results[x] = results[x].astype(int)
         return results.set_index('line_idx')
 
     def encode_sig(self, code):
