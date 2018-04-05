@@ -1,0 +1,6005 @@
+line_idx,line,function,tag,intro
+0,"
+",E,,1
+1,"
+",E,,1
+2,"
+",E,,1
+3,"
+",E,,1
+4,"
+",E,,1
+5,"                STAR TREK: THE NEXT GENERATION 
+",X,series,1
+6,"                              
+",B,,1
+7,"                   ""The Ensigns of Command"" 
+",X,episode,1
+8,#40273-149,X,serial,1
+9,"                              
+",B,,1
+10,"                          Written by 
+",X,,1
+11,"                         H. B. Savage 
+",X,writer,1
+12,"                              
+",E,,1
+13,"                          Directed by 
+",X,,1
+14,"                          Cliff Bole 
+",X,director,1
+15,"
+",E,,1
+16,"
+",E,,1
+17,"THE WRITING CREDITS MAY NOT BE FINAL AND SHOULD NOT BE USED
+",X,,1
+18,"FOR PUBLICITY OR ADVERTISING PURPOSES WITHOUT FIRST CHECKING
+",X,,1
+19,"WITH THE TELEVISION LEGAL DEPARTMENT.
+",X,,1
+20,"
+",E,,1
+21,Copyright 1989 Paramount Pictures Corporation. All Rights,X,,1
+22,"Reserved. This script is not for publication or
+",X,,1
+23,"reproduction. No one is authorized to dispose of same. If
+",X,,1
+24,"lost or destroyed, please notify the Script Department.
+",X,,1
+25,"
+",E,,1
+26,3RD REVISED FINAL DRAFT,X,,1
+27," 
+",B,,1
+28,"JULY 13, 1989",X,date,1
+29,"
+",E,,1
+30,"STAR TREK: ""The Ensigns of Command"" - REV. 7/14/89 - CAST",H,,1
+31,"
+",E,,1
+32,"                STAR TREK: THE NEXT GENERATION 
+",X,series,1
+33,"                   ""The Ensigns of Command"" 
+",X,episode,1
+34,"
+",E,,1
+35,"                             CAST                               
+",X,,1
+36,"                              
+",B,,1
+37,"                PICARD                 SHELIAK
+",X,cast,1
+38,"                RIKER                  
+",X,cast,1
+39,"                DATA                   ARD'RIAN
+",X,cast,1
+40,"                BEVERLY                GOSHEVEN
+",X,cast,1
+41,"                TROI                   HARITATH
+",X,cast,1
+42,"                GEORDI                 KENTOR
+",X,cast,1
+43,"                WORF                   
+",X,cast,1
+44,"                WESLEY                 Non-Speaking
+",X,cast,1
+45,ENGINEERS (2),X,cast,1
+46,O'BRIEN                  OTHER LOCALS (26),X,cast,1
+47,"   
+",B,,1
+48,"                Non-Speaking           
+",X,cast,1
+49,A VULCAN VIOLINIST     YOUNG BOY (age 12),X,cast,1
+50,"                  A WOMAN VIOLIST        BOY'S MOTHER
+",X,cast,1
+51,N.D. CREWMEMBERS (12),X,cast,1
+52,"                  SUPERNUMERARIES (CONN & OPS)
+",X,cast,1
+53,"
+",E,,1
+54,"STAR TREK: ""The Ensigns of Command"" - REV. 7/14/89 - SETS",H,,1
+55,"
+",E,,1
+56,"                STAR TREK: THE NEXT GENERATION 
+",X,series,1
+57,"                   ""The Ensigns of Command"" 
+",X,episode,1
+58,"                      
+",B,,1
+59,"                             SETS 
+",X,,1
+60,"
+",E,,1
+61,"            INTERIORS                  EXTERIORS
+",X,,1
+62,"          
+",B,,1
+63,"            USS ENTERPRISE             USS ENTERPRISE
+",X,set,1
+64,"              MAIN BRIDGE
+",X,set,1
+65,"              TEN FORWARD              TAU CYGNA FIVE
+",X,set,1
+66,"              OBSERVATION LOUNGE         FRONTIER TOWN
+",X,set,1
+67,"              TRANSPORTER ROOM
+",X,set,1
+68,"              CAPTAIN'S READY ROOM       TOWN SQUARE
+",X,set,1
+69,"                                         AQUEDUCT
+",X,set,1
+70,"                                         PUMPING STATION
+",X,set,1
+71,"            TAU CYGNA FIVE               DATA'S SHUTTLE
+",X,set,1
+72,"              ARD'RIAN'S FRONT ROOM
+",X,set,1
+73,"                                       SHELIAK WARSHIP
+",X,set,1
+74,"            SHELIAK WARSHIP
+",X,set,1
+75,"
+",E,,1
+76,"STAR TREK: ""Ensigns of Command"" - REV. 7/14/89 PRONUNCIATION",H,,1
+77,"
+",E,,1
+78,"                STAR TREK: THE NEXT GENERATION 
+",X,series,1
+79,"                   ""The Ensigns of Command"" 
+",X,episode,1
+80,"                 
+",B,,1
+81,"                      PRONUNCIATION GUIDE 
+",X,,1
+82,"
+",E,,1
+83,"              ARD'RIAN               ARD-ree-an
+",X,keyword,1
+84,"              ARMENS                 ARE-mens
+",X,keyword,1
+85,"              ARTEMIS                ARE-tih-mus
+",X,keyword,1
+86,"              GOSHEVEN               GO-sheh-ven
+",X,keyword,1
+87,"              HARITATH               HAH-ree-tath
+",X,keyword,1
+88,"              KENTOR                 KEN-tor
+",X,keyword,1
+89,"              SHELIA                 Shell-LEE-ah
+",X,keyword,1
+90,"              SHELIAK                SHELL-lee-awk
+",X,keyword,1
+91,"              S'SMARITH              Ss-sa-MAH-rith
+",X,keyword,1
+92,"              TEREMI-BOSONS          Teh-REH-mee-BOH-suns
+",X,keyword,1
+93,"
+",E,,1
+94,"STAR TREK: ""Ensigns of Command"" - REV. 7/13/89 - TEASER   1.",H,,0
+95,"
+",E,,0
+96,"                STAR TREK: THE NEXT GENERATION                  
+",X,series,0
+97,"                   ""The Ensigns of Command""                        
+",X,episode,0
+98,"                            TEASER                              
+",X,act,0
+99,"
+",E,,0
+100,"	FADE IN:
+",A,,0
+101,"
+",E,,0
+102,1    EXT. SPACE - THE ENTERPRISE (OPTICAL),S,,0
+103,"
+",E,,0
+104,"	Moving at impulse near some extraordinarily interesting
+",A,,0
+105,"	astronomical object.
+",A,,0
+106,"
+",E,,0
+107,2    INT. TEN-FORWARD,S,,0
+108,"
+",E,,0
+109,"	Present are PICARD, BEVERLY, and TWELVE N.D.
+",A,,0
+110,"	CREWMEMBERS. A VULCAN and ONE WOMAN are seated,
+",A,,0
+111,"	holding their instruments -- a violin and a viola.
+",A,,0
+112,"	O'BRIEN tunes his cello. DATA ENTERS carrying a
+",A,,0
+113,"	violin. He checks at the door, startled to see the
+",A,,0
+114,"	captain. Picard beckons, and Data crosses to him.
+",A,,0
+115,"
+",E,,0
+116,"					DATA
+",C,,0
+117,"			Captain, Doctor, I am honored by
+",D,,0
+118,"			your presence, but may I suggest
+",D,,0
+119,"			you attend the second concert.
+",D,,0
+120,"
+",E,,0
+121,"					BEVERLY
+",C,,0
+122,"			Why, Data?
+",D,,0
+123,"
+",E,,0
+124,"					DATA
+",C,,0
+125,"			Ensign Ortiz will perform the
+",D,,0
+126,"			violin part. My rendition will
+",D,,0
+127,"			be less enjoyable.
+",D,,0
+128,"
+",E,,0
+129,"					PICARD
+",C,,0
+130,"			Oh?
+",D,,0
+131,"
+",E,,0
+132,"					DATA
+",C,,0
+133,"			While I am quite proficient
+",D,,0
+134,"			Technically, according to my
+",D,,0
+135,"			fellow performers, I lack soul.
+",D,,0
+136,"
+",E,,0
+137,"					BEVERLY
+",C,,0
+138,"			Data, telling us why you're going
+",D,,0
+139,"			to fail before you make the
+",D,,0
+140,"			attempt is never wise.
+",D,,0
+141,"
+",E,,0
+142,"					DATA
+",C,,0
+143,"			But is not honesty always the
+",D,,0
+144,"			preferred choice?
+",D,,0
+145,"
+",E,,0
+146,"STAR TREK: ""Ensigns of Command"" - REV. 7/14/89 - TEASER   2.",H,,0
+147,"
+",E,,0
+148,2    CONTINUED:,S,,0
+149,"
+",E,,0
+150,"					PICARD
+",C,,0
+151,"			Excessive honesty can be
+",D,,0
+152,"			disastrous... particularly in a
+",D,,0
+153,"			commander.
+",D,,0
+154,"
+",E,,0
+155,"					DATA
+",C,,0
+156,"				(very intrigued)
+",M,,0
+157,"			Indeed?
+",D,,0
+158,"
+",E,,0
+159,"					PICARD
+",C,,0
+160,"			Knowing your limitations is one
+",D,,0
+161,"			thing. Advertising them to a crew
+",D,,0
+162,"			can damage your ability to lead.
+",D,,0
+163,"
+",E,,0
+164,"					DATA
+",C,,0
+165,"			Because you lose their respect?
+",D,,0
+166,"
+",E,,0
+167,"					BEVERLY
+",C,,0
+168,"			No, because you may begin to
+",D,,0
+169,"			believe in those limitations
+",D,,0
+170,"			yourself.
+",D,,0
+171,"
+",E,,0
+172,"	Data considers this, then moves to take his place with
+",A,,0
+173,"	the other performers.
+",A,,0
+174,"
+",E,,0
+175,2A   ANGLE ON PICARD AND BEVERLY,S,,0
+176,"
+",E,,0
+177,"	O.s., the string quartet TUNES. There is the SOUND of
+",A,,0
+178,"	the communicator hail.
+",A,,0
+179,"
+",E,,0
+180,"					RIKER'S COM VOICE
+",C,,0
+181,"			Captain, we're receiving a message
+",D,,0
+182,"			from the Sheliak Corporate.
+",D,,0
+183,"
+",E,,0
+184,"	Picard reacts with surprise, stands and EXITS. As he
+",A,,0
+185,"	leaves, the quartet starts to PLAY.
+",A,,0
+186,"
+",E,,0
+187,"									CUT TO:
+",O,,0
+188,"
+",E,,0
+189,3    INT. MAIN BRIDGE,S,,0
+190,"
+",E,,0
+191,"	Picard ENTERS. RIKER and WORF at their usual stations.
+",A,,0
+192,"	Supernumeraries at CONN and OPS.
+",A,,0
+193,"
+",E,,0
+194,"STAR TREK: ""Ensigns of Command"" - REV. 7/14/89 - TEASER   3.",H,,0
+195,"
+",E,,0
+196,3    CONTINUED:,S,,0
+197,"
+",E,,0
+198,"					WORF
+",C,,0
+199,"			Origin point of the message
+",D,,0
+200,"			confirmed. It is from the Shelia
+",D,,0
+201,"			star system.
+",D,,0
+202,"
+",E,,0
+203,"					RIKER
+",C,,0
+204,"			The Sheliak have not attempted
+",D,,0
+205,"			to communicate with the Federation
+",D,,0
+206,"			for a hundred and eleven years.
+",D,,0
+207,"
+",E,,0
+208,"					PICARD
+",C,,0
+209,"			On screen.
+",D,,0
+210,"
+",E,,0
+211,4    ANGLE ON VIEWSCREEN (OPTICAL),S,,0
+212,"
+",E,,0
+213,"	What appears is the text of a treaty. English on one
+",A,,0
+214,"	side, Sheliak on the other. Sheliak is not symbols
+",A,,0
+215,"	as we know them, but rather a pattern of lights. A
+",A,,0
+216,"	recorded message begins.
+",A,,0
+217,"
+",E,,0
+218,"					SHELIAK VOICE
+",C,,0
+219,"			Federation creatures, there are
+",D,,0
+220,"			humans on the fifth planet of Tau
+",D,,0
+221,"			Cygna. This planet was ceded
+",D,,0
+222,"			to the corporate in section one
+",D,,0
+223,"			hundred and thirty-three,
+",D,,0
+224,"			paragraph seventy-seven of the
+",D,,0
+225,"			Treaty of Armens. We will begin
+",D,,0
+226,"			settlement of this world in four
+",D,,0
+227,"			days. Remove the humans.
+",D,,0
+228,"
+",E,,0
+229,"	Riker is up, and heading for Science One.
+",A,,0
+230,"
+",E,,0
+231,"					PICARD
+",C,,0
+232,"			What the devil --
+",D,,0
+233,"
+",E,,0
+234,"					SHELIAK VOICE
+",C,,0
+235,"			Federation creatures, there are
+",D,,0
+236,"			humans on the fifth planet --
+",D,,0
+237,"
+",E,,0
+238,"					PICARD
+",C,,0
+239,"			Cancel message.
+",D,,0
+240,"
+",E,,0
+241,"	Inquiring look to Riker.
+",A,,0
+242,"
+",E,,0
+243,"					RIKER
+",C,,0
+244,"			Tau Cygna Five is in the de Laure
+",D,,0
+245,"			belt -- heavy concentrations of
+",D,,0
+246,"			hyperonic radiation.
+",D,,0
+247,"
+",E,,0
+248,"STAR TREK: ""Ensigns of Command"" - REV. 7/14/89 - TEASER   4.",H,,0
+249,"
+",E,,0
+250,4    CONTINUED:,S,,0
+251,"
+",E,,0
+252,"					PICARD
+",C,,0
+253,"			Humans can't survive in such an
+",D,,0
+254,"			environment. Exposure to
+",D,,0
+255,"			hyperonic radiation is fatal.
+",D,,0
+256,"
+",E,,0
+257,"					RIKER
+",C,,0
+258,"			Then the Sheliak are asking us
+",D,,0
+259,"			to chase ghosts.
+",D,,0
+260,"
+",E,,0
+261,"					PICARD
+",C,,0
+262,"			No, Number One. The Sheliak
+",D,,0
+263,"			haven't broken a century of
+",D,,0
+264,"			silence to send us after phantoms.
+",D,,0
+265,"			An investigation is in order.
+",D,,0
+266,"			Set course for Tau Cygna Five.
+",D,,0
+267,"
+",E,,0
+268,"	Off Picard's expression:
+",A,,0
+269,"
+",E,,0
+270,"									FADE OUT.
+",O,,0
+271,"
+",E,,0
+272,"                       END OF THE TEASER                        
+",N,act,0
+273,"
+",E,,0
+274,"STAR TREK: ""Ensigns of Command"" REV. 7/19/89 - ACT ONE   5.",H,,0
+275,"
+",E,,0
+276,"                            ACT ONE                             
+",N,act,0
+277,"
+",E,,0
+278,"	FADE IN:
+",A,,0
+279,"
+",E,,0
+280,5    EXT. SPACE - THE ENTERPRISE (OPTICAL),S,,0
+281,"
+",E,,0
+282,"	entering orbit around a planet.
+",A,,0
+283,"
+",E,,0
+284,6    INT. MAIN BRIDGE,S,,0
+285,"
+",E,,0
+286,"	Picard, Riker, Data, Beverly and Worf. Supernumerary
+",A,,0
+287,"	at CONN.
+",A,,0
+288,"
+",E,,0
+289,"					WORF
+",C,,0
+290,"			Human life form readings from the
+",D,,0
+291,"			planet.
+",D,,0
+292,"
+",E,,0
+293,"					RIKER
+",C,,0
+294,"			So, the Sheliak weren't
+",D,,0
+295,"			hallucinating.
+",D,,0
+296,"
+",E,,0
+297,"					PICARD
+",C,,0
+298,"			Numbers?
+",D,,0
+299,"
+",E,,0
+300,"					WORF
+",C,,0
+301,"			Impossible to get an accurate
+",D,,0
+302,"			reading, Captain. The high
+",D,,0
+303,"			radiation levels are disrupting
+",D,,0
+304,"			our sensors.
+",D,,0
+305,"
+",E,,0
+306,"					DATA
+",C,,0
+307,"			Hyperonic radiation also
+",D,,0
+308,"			interferes with ship's
+",D,,0
+309,"			transporters; they are now
+",D,,0
+310,"			inoperable.
+",D,,0
+311,"
+",E,,0
+312,"					WORF
+",C,,0
+313,"			So are the ship's phasers.
+",D,,0
+314,"
+",E,,0
+315,"					RIKER
+",C,,0
+316,"			How can humans survive down there?
+",D,,0
+317,"
+",E,,0
+318,"					BEVERLY
+",C,,0
+319,"			They must have found a way to
+",D,,0
+320,"			adapt.
+",D,,0
+321,"				(thinks it over)
+",M,,0
+322,"			Milan's work in radiation
+",D,,0
+323,"			sensitivity suggests it's
+",D,,0
+324,"			possible. Perhaps with extensive
+",D,,0
+325,"			virotherapy...
+",D,,0
+326,"				(grimly)
+",M,,0
+327,"			Until they found the answer, their
+",D,,0
+328,"			mortality rate must have been
+",D,,0
+329,"			staggering.
+",D,,0
+330,"
+",E,,0
+331,"STAR TREK: ""Ensigns of Command"" - REV. 7/18/79 - ACT ONE  6.",H,,0
+332,"
+",E,,0
+333,6    CONTINUED:,S,,0
+334,"
+",E,,0
+335,"					PICARD
+",C,,0
+336,"			Well, whoever they are and however
+",D,,0
+337,"			they've survived, we've got to
+",D,,0
+338,"			get them off the planet.
+",D,,0
+339,"
+",E,,0
+340,"					RIKER
+",C,,0
+341,"			By treaty, this world does belong
+",D,,0
+342,"			to the Sheliak...
+",D,,0
+343,"
+",E,,0
+344,"					PICARD
+",C,,0
+345,"			... who are within their rights
+",D,,0
+346,"			to demand the removal of these
+",D,,0
+347,"			""trespassers.""
+",D,,0
+348,"
+",E,,0
+349,"					RIKER
+",C,,0
+350,"			And if we don't remove them, the
+",D,,0
+351,"			Sheliak will.
+",D,,0
+352,"
+",E,,0
+353,"					BEVERLY
+",C,,0
+354,"			How forcefully?
+",D,,0
+355,"
+",E,,0
+356,"					RIKER
+",C,,0
+357,"			To the Sheliak, humans are a lower
+",D,,0
+358,"			life form. They'd have no
+",D,,0
+359,"			compunctions about exterminating
+",D,,0
+360,"			the intruders.
+",D,,0
+361,"
+",E,,0
+362,"	Beverly is taken aback. Riker's dead serious.
+",A,,0
+363,"
+",E,,0
+364,"					PICARD
+",C,,0
+365,"			Mister Data. As you are unaffected
+",D,,0
+366,"			by hyperonic radiation, you will
+",D,,0
+367,"			go to the planet via shuttlecraft
+",D,,0
+368,"			and commence evacuation
+",D,,0
+369,"			procedures.
+",D,,0
+370,"
+",E,,0
+371,"					DATA
+",C,,0
+372,"			Aye, sir.
+",D,,0
+373,"
+",E,,0
+374,"	Without a word wasted the android is out of his chair,
+",A,,0
+375,"	and EXITS the bridge.
+",A,,0
+376,"
+",E,,0
+377,"					PICARD
+",C,,0
+378,"			Any speculation as to what he'll
+",D,,0
+379,"			find, Number One?
+",D,,0
+380,"
+",E,,0
+381,"					RIKER
+",C,,0
+382,"			A lost survey ship would be my
+",D,,0
+383,"			guess. A dozen or so survivors
+",D,,0
+384,"			at most.
+",D,,0
+385,"
+",E,,0
+386,"									CUT TO:
+",O,,0
+387,"
+",E,,0
+388,"STAR TREK: ""Ensigns of Command"" - REV. 7/17/89 - ACT ONE  6A.",H,,0
+389,"
+",E,,0
+390,7    EXT. PLANET SURFACE - SHUTTLE LANDING SITE - DAY,S,,0
+391,"
+",E,,0
+392,"	Data is outside the shuttle, scanning with his
+",A,,0
+393,"	tricorder.
+",A,,0
+394,"
+",E,,0
+395,7A   NEW ANGLE,S,,0
+396,"
+",E,,0
+397,"	as HARITATH and KENTOR (two male humans) and TWO N.D.
+",A,,0
+398,"	WORKERS cautiously approach the shuttle from the other
+",A,,0
+399,"	side (the shuttle blocks their view of Data).
+",A,,0
+400,"
+",E,,0
+401,"					HARITATH
+",C,,0
+402,"				(in wonder)
+",M,,0
+403,"			A shuttlecraft!
+",D,,0
+404,"
+",E,,0
+405,"					KENTOR
+",C,,0
+406,"			Where's it from?
+",D,,0
+407,"
+",E,,0
+408,"					HARITATH
+",C,,0
+409,"			Look at the markings. I think
+",D,,0
+410,"			it's from the Federation.
+",D,,0
+411,"
+",E,,0
+412,"	Data steps into their view from around the shuttle.
+",A,,0
+413,"
+",E,,0
+414,"					DATA
+",C,,0
+415,"			Hello.
+",D,,0
+416,"
+",E,,0
+417,"	The four humans jump, startled.
+",A,,0
+418,"
+",E,,0
+419,"					HARITATH
+",C,,0
+420,"			We saw your ship... You're the
+",D,,0
+421,"			first visitor we've had in...
+",D,,0
+422,"
+",E,,0
+423,"STAR TREK: ""Ensigns of Command"" - REV. 7/14/89 - ACT ONE  7.",H,,0
+424,"
+",E,,0
+425,7A   CONTINUED: (2),S,,0
+426,"
+",E,,0
+427,"					KENTOR
+",C,,0
+428,"			The first visitor we've ever had.
+",D,,0
+429,"
+",E,,0
+430,"	They take a closer look at Data.
+",A,,0
+431,"
+",E,,0
+432,"					HARITATH
+",C,,0
+433,"			You're -- not human.
+",D,,0
+434,"
+",E,,0
+435,"					DATA
+",C,,0
+436,"			That is correct. I am an android.
+",D,,0
+437,"			I am Lieutenant Commander Data
+",D,,0
+438,"			of the Federation Starship
+",D,,0
+439,"			Enterprise.
+",D,,0
+440,"
+",E,,0
+441,"					HARITATH
+",C,,0
+442,"				(excited)
+",M,,0
+443,"			Our great-grandparents were
+",D,,0
+444,"			citizens of the Federation.
+",D,,0
+445,"				(realizing)
+",M,,0
+446,"			But you don't want to waste time
+",D,,0
+447,"			talking to us...
+",D,,0
+448,"
+",E,,0
+449,"					KENTOR
+",C,,0
+450,"			You'll want to speak with
+",D,,0
+451,"			Gosheven. We'll take you to him.
+",D,,0
+452,"
+",E,,0
+453,"					DATA
+",C,,0
+454,"			Excellent.
+",D,,0
+455,"
+",E,,0
+456,"					HARITATH
+",C,,0
+457,"			I'm sure the Federation will be
+",D,,0
+458,"			very proud of us. Wait until you
+",D,,0
+459,"			see all we've accomplished.
+",D,,0
+460,"
+",E,,0
+461,"					DATA
+",C,,0
+462,"			And who, precisely, is ""we?""
+",D,,0
+463,"
+",E,,0
+464,"					HARITATH
+",C,,0
+465,"			You don't know? No, I guess you
+",D,,0
+466,"			wouldn't, would you? We are the
+",D,,0
+467,"			descendants of the original
+",D,,0
+468,"			settlers -- from the colony ship
+",D,,0
+469,"			Artemis.
+",D,,0
+470,"
+",E,,0
+471,"									CUT TO:
+",O,,0
+472,"
+",E,,0
+473,8    INT. ENTERPRISE - MAIN BRIDGE,S,,0
+474,"
+",E,,0
+475,"	Picard and Worf in their usual places. Riker at
+",A,,0
+476,"	Science One. Supernumeraries at Conn and Ops.
+",A,,0
+477,"
+",E,,0
+478,"STAR TREK: ""Ensigns of Command"" REV. 7/19/89 - ACT ONE   8.",H,,0
+479,"
+",E,,0
+480,8    CONTINUED:,S,,0
+481,"
+",E,,0
+482,"					RIKER
+",C,,0
+483,"			Got it. The Artemis, launched one
+",D,,0
+484,"			hundred forty-two years ago,
+",D,,0
+485,"			destination Septimis Minor. When
+",D,,0
+486,"			they failed to check in, Starfleet
+",D,,0
+487,"			began an extensive search.
+",D,,0
+488,"
+",E,,0
+489,"					PICARD
+",C,,0
+490,"			What carried the Artemis so far
+",D,,0
+491,"			off course?
+",D,,0
+492,"
+",E,,0
+493,9    EXT. PLANET SURFACE - SHUTTLE LANDING SITE - DAY,S,,0
+494,"
+",E,,0
+495,"	Haritath and Kentor wait patiently for Data to finish
+",A,,0
+496,"	him communication.
+",A,,0
+497,"
+",E,,0
+498,"					DATA
+",C,,0
+499,"			My local informant does not know.
+",D,,0
+500,"			In the early days survival on Tau
+",D,,0
+501,"			Cygna Five was more important than
+",D,,0
+502,"			history.
+",D,,0
+503,"
+",E,,0
+504,10   INTERCUTS,S,,0
+505,"
+",E,,0
+506,"					PICARD
+",C,,0
+507,"			Understood. How many are there?
+",D,,0
+508,"
+",E,,0
+509,"					DATA
+",C,,0
+510,"			Approximately fifteen thousand.
+",D,,0
+511,"
+",E,,0
+512,"	Reactions from the bridge crew. Now they really have
+",A,,0
+513,"	got a problem.
+",A,,0
+514,"
+",E,,0
+515,"					RIKER
+",C,,0
+516,"				(to Picard)
+",M,,0
+517,"			We've only got three days.
+",D,,0
+518,"			Without working transporters, we
+",D,,0
+519,"			couldn't have them out in time.
+",D,,0
+520,"
+",E,,0
+521,"					PICARD
+",C,,0
+522,"			Shuttles?
+",D,,0
+523,"
+",E,,0
+524,"	Worf does some figuring on his console.
+",A,,0
+525,"
+",E,,0
+526,"					WORF
+",C,,0
+527,"			Loading all the Enterprise
+",D,,0
+528,"			shuttlecraft to capacity --
+",D,,0
+529,"			evacuation would take four weeks,
+",D,,0
+530,"			four days.
+",D,,0
+531,"
+",E,,0
+532,"STAR TREK: ""Ensigns of Command"" REV. 7/24/89 - ACT ONE   9.",H,,0
+533,"
+",E,,0
+534,10   CONTINUED:,S,,0
+535,"
+",E,,0
+536,"					PICARD
+",C,,0
+537,"			Then we need more time. Mister
+",D,,0
+538,"			Data, prepare the colonists for
+",D,,0
+539,"			an evacuation.
+",D,,0
+540,"
+",E,,0
+541,"					DATA'S COM VOICE
+",C,,0
+542,"			Aye, sir.
+",D,,0
+543,"
+",E,,0
+544,"	Picard closes the com line.
+",A,,0
+545,"
+",E,,0
+546,"					PICARD
+",C,,0
+547,"				(continuing)
+",M,,0
+548,"			Mister Worf, get me the Sheliak.
+",D,,0
+549,"
+",E,,0
+550,"					WORF
+",C,,0
+551,"			Their home world is quite distant,
+",D,,0
+552,"			Captain. This will take some
+",D,,0
+553,"			time.
+",D,,0
+554,"
+",E,,0
+555,"									CUT TO:
+",O,,0
+556,"
+",E,,0
+557,11   EXT. PLANET SURFACE - MAIN STREET - DAY,S,,0
+558,"
+",E,,0
+559,"	The main pumping station of Tau Cygna V. In the
+",A,,0
+560,"	distance are mountains. A thin white line descends
+",A,,0
+561,"	from the mountains, and as it comes closer we realize
+",A,,0
+562,"	it is an aqueduct. Along the line of the aqueduct are
+",A,,0
+563,"	lush fields, a veritable Garden of Eden, which ends
+",A,,0
+564,"	like a knife-cut and the desert returns. It culminates
+",A,,0
+565,"	in a strange cubistic-shaped purifying station. In a
+",A,,0
+566,"	pool, the water churns into a white froth.
+",A,,0
+567,"
+",E,,0
+568,"	GOSHEVEN, the leader, supervises TWO WORKERS testing
+",A,,0
+569,"	the water in the pool.
+",A,,0
+570,"
+",E,,0
+571,"	Data, Haritath, and Kentor approach.
+",A,,0
+572,"
+",E,,0
+573,"					HARITATH
+",C,,0
+574,"			Gosheven, look what's come --
+",S,,0
+575,"
+",E,,0
+576,"	Gosheven sees Data, looks him up and down very
+",A,,0
+577,"	carefully. Gosheven's as surprised as Haritath was,
+",A,,0
+578,"	but keeps a lid on it -- Data may represent a threat,
+",A,,0
+579,"	so Gosheven's attempting a poker face.
+",A,,0
+580,"
+",E,,0
+581,"					DATA
+",C,,0
+582,"			Lieutenant Commander Data of the
+",D,,0
+583,"			Starship Enterprise.
+",D,,0
+584,"
+",E,,0
+585,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT ONE   10.",H,,0
+586,"
+",E,,0
+587,11   CONTINUED:,S,,0
+588,"
+",E,,0
+589,"					KENTOR
+",C,,0
+590,"			He's an android.
+",D,,0
+591,"
+",E,,0
+592,"					GOSHEVEN
+",C,,0
+593,"			So he is.
+",D,,0
+594,"				(a beat)
+",M,,0
+595,"			Well, you're here -- what do you
+",D,,0
+596,"			want?
+",D,,0
+597,"
+",E,,0
+598,"					DATA
+",C,,0
+599,"			My mission is to prepare this
+",D,,0
+600,"			colony for evacuation.
+",D,,0
+601,"
+",E,,0
+602,"	Reactions from the men. Gosheven is calm, almost
+",A,,0
+603,"	amused:
+",A,,0
+604,"
+",E,,0
+605,"					GOSHEVEN
+",C,,0
+606,"			Why?
+",D,,0
+607,"
+",E,,0
+608,"					DATA
+",C,,0
+609,"			Because this planet belongs to
+",D,,0
+610,"			the Sheliak.
+",D,,0
+611,"
+",E,,0
+612,"					GOSHEVEN
+",C,,0
+613,"			And just who is this Sheliak?
+",D,,0
+614,"
+",E,,0
+615,"					DATA
+",C,,0
+616,"			The term is plural. The Sheliak
+",D,,0
+617,"			are an intelligent, non-humanoid
+",D,,0
+618,"life form, classification R-3 --",D,,0
+619,"
+",E,,0
+620,"					GOSHEVEN
+",C,,0
+621,"				(interrupting)
+",M,,0
+622,"			This colony's been here for a
+",D,,0
+623,"			hundred and forty years -- and
+",D,,0
+624,"			no one's ever seen a Sheliak.
+",D,,0
+625,"			I'd say that makes Tau Cygna
+",D,,0
+626,"			Five our planet. (ALTERNATE:
+",D,,0
+627,"			ninety years)
+",D,,0
+628,"
+",E,,0
+629,"					DATA
+",C,,0
+630,"			But the original destination of
+",D,,0
+631,"			the Artemis was Septimis Minor.
+",D,,0
+632,"
+",E,,0
+633,"					GOSHEVEN
+",C,,0
+634,"			The guidance systems on the
+",D,,0
+635,"			Artemis failed -- and sent them
+",D,,0
+636,"			off course. Far off course.
+",D,,0
+637,"			Our ancestors were lucky to find
+",D,,0
+638,"			any place to land.
+",D,,0
+639,"
+",E,,0
+640,"STAR TREK: ""Ensigns of Command"" REV. 7/24/89 - ACT ONE   11.",H,,0
+641,"
+",E,,0
+642,11   CONTINUED: (2),S,,0
+643,"
+",E,,0
+644,"					HARITATH
+",C,,0
+645,"			And when they did, the radiation
+",D,,0
+646,"			started killing them.
+",D,,0
+647,"
+",E,,0
+648,"					GOSHEVEN
+",C,,0
+649,"			Hyperonic radiation took the lives
+",D,,0
+650,"			of a third of the colonists before
+",D,,0
+651,"			they learned they could adapt
+",D,,0
+652,"			to it.
+",D,,0
+653,"
+",E,,0
+654,"					KENTOR
+",C,,0
+655,"			But the colony survived -- and
+",D,,0
+656,"			prospered.
+",D,,0
+657,"
+",E,,0
+658,"					GOSHEVEN
+",C,,0
+659,"				(with pride)
+",M,,0
+660,"			Look around. We've brought
+",D,,0
+661,"			water to the desert, built a
+",D,,0
+662,"			community.
+",D,,0
+663,"
+",E,,0
+664,"					DATA
+",C,,0
+665,"			Your accomplishments are indeed
+",D,,0
+666,"			remarkable. However, the
+",D,,0
+667,"			Sheliak and the Federation
+",D,,0
+668,"			have a treaty that clearly makes
+",D,,0
+669,"			this planet Sheliak domain.
+",D,,0
+670,"
+",E,,0
+671,"					GOSHEVEN
+",C,,0
+672,"			Then change the treaty.
+",D,,0
+673,"
+",E,,0
+674,"					DATA
+",C,,0
+675,"			That may not be possible. The
+",D,,0
+676,"			Sheliak wish to colonize this
+",D,,0
+677,"			planet, and they are unwilling
+",D,,0
+678,"			to share it with humans.
+",D,,0
+679,"					(MORE)
+",C,,0
+680,"
+",E,,0
+681,"STAR TREK: ""Ensigns of Command"" REV. 7/24/89 - ACT ONE   12.",H,,0
+682,"
+",E,,0
+683,11   CONTINUED: (3),S,,0
+684,"
+",E,,0
+685,"					DATA (cont'd)
+",C,,0
+686,"			If you are still here when the
+",D,,0
+687,"			Sheliak colony ship arrives,
+",D,,0
+688,"			they will eradicate you.
+",D,,0
+689,"
+",E,,0
+690,"	Haritath and Kentor exchange a worried glance, but
+",A,,0
+691,"	Gosheven is unfazed.
+",A,,0
+692,"
+",E,,0
+693,"					HARITATH
+",C,,0
+694,"			They would kill us all?
+",D,,0
+695,"
+",E,,0
+696,"					DATA
+",C,,0
+697,"			They have little regard for
+",D,,0
+698,"			human life. Thus, our most
+",D,,0
+699,"			sensible course is to prepare a
+",D,,0
+700,"			contingency plan for the
+",D,,0
+701,"			evacuation of your people.
+",D,,0
+702,"
+",E,,0
+703,"					GOSHEVEN
+",C,,0
+704,"			We're not evacuating.
+",D,,0
+705,"
+",E,,0
+706,"	Data is taken aback.
+",A,,0
+707,"
+",E,,0
+708,"STAR TREK: ""Ensigns of Command"" - REV. 7/18/79 - ACT ONE 12A.",H,,0
+709,"
+",E,,0
+710,11   CONTINUED: (4),S,,0
+711,"
+",E,,0
+712,"					DATA
+",C,,0
+713,"			Perhaps I have not made myself
+",D,,0
+714,"			clear.
+",D,,0
+715,"
+",E,,0
+716,"					GOSHEVEN
+",C,,0
+717,"			Yes, you have. Now let me be
+",D,,0
+718,"			equally clear. There's going
+",D,,0
+719,"			to be no evacuation.
+",D,,0
+720,"				(a beat)
+",M,,0
+721,"			You've delivered your message --
+",D,,0
+722,"			so go back to your ship. I have
+",D,,0
+723,"			work to do.
+",D,,0
+724,"
+",E,,0
+725,"	Gosheven returns to his work on the pumping station.
+",A,,0
+726,"
+",E,,0
+727,"STAR TREK: ""Ensigns of Command"" - REV. 7/18/89 - ACT ONE  13.",H,,0
+728,"
+",E,,0
+729,11A  ON DATA,S,,0
+730,"
+",E,,0
+731,"	as he considers his next move. Then -- an object comes
+",A,,0
+732,"	flying at Data.
+",A,,0
+733,"
+",E,,0
+734,"	With android speed and reflexes, Data catches the
+",A,,0
+735,"	object and examines it. It is an iron bar.
+",A,,0
+736,"
+",E,,0
+737,"					ARD'RIAN (O.S.)
+",C,,0
+738,"			Nice catch. Wonderful reflexes.
+",D,,0
+739,"
+",E,,0
+740,"	Data turns to see --
+",A,,0
+741,"
+",E,,0
+742,11B  WIDER,S,,0
+743,"
+",E,,0
+744,"	ARD'RIAN, an attractive female, approaches.
+",A,,0
+745,"
+",E,,0
+746,"					ARD'RIAN
+",C,,0
+747,"			Sorry to test you like that --
+",D,,0
+748,"			but I was curious.
+",D,,0
+749,"
+",E,,0
+750,"					GOSHEVEN
+",C,,0
+751,"				(amused)
+",M,,0
+752,"			Found a new toy, have we, Ardy?
+",D,,0
+753,"
+",E,,0
+754,"					ARD'RIAN
+",C,,0
+755,"			Toy? This is the most incredible
+",D,,0
+756,"			android I've ever seen.
+",D,,0
+757,"
+",E,,0
+758,"					DATA
+",C,,0
+759,"			Have you seen many?
+",D,,0
+760,"
+",E,,0
+761,"					ARD'RIAN
+",C,,0
+762,"			Actually, no. You're the first.
+",D,,0
+763,"
+",E,,0
+764,"					GOSHEVEN
+",C,,0
+765,"				(to Ard'rian)
+",M,,0
+766,"			Only you would get this excited
+",D,,0
+767,"			over a walking calculator.
+",D,,0
+768,"
+",E,,0
+769,"					ARD'RIAN
+",C,,0
+770,"				(bridling)
+",M,,0
+771,"			He's more interesting than
+",D,,0
+772,"			anything else walking around
+",D,,0
+773,"			here...
+",D,,0
+774,"
+",E,,0
+775,"	Gosheven CHUCKLES -- he's succeeded in getting under
+",A,,0
+776,"	her skin.
+",A,,0
+777,"
+",E,,0
+778,"					GOSHEVEN
+",C,,0
+779,"			Depends on what you find
+",D,,0
+780,"			interesting.
+",D,,0
+781,"
+",E,,0
+782,"STAR TREK: ""Ensigns of Command"" REV. 7/24/89 - ACT ONE  13A.",H,,0
+783,"
+",E,,0
+784,11B  CONTINUED:,S,,0
+785,"
+",E,,0
+786,"	Ard'rian's had enough of Gosheven's male conceit. She
+",A,,0
+787,"	moves away, motions for Data to follow. Data does.
+",A,,0
+788,"
+",E,,0
+789,"					ARD'RIAN
+",C,,0
+790,"				(to Data)
+",M,,0
+791,"			Cybernetic intelligence fascinates
+",D,,0
+792,"			me. Are your neural pathways
+",D,,0
+793,"			duotronic?
+",D,,0
+794,"
+",E,,0
+795,"					DATA
+",C,,0
+796,"			No -- they are positronic.
+",D,,0
+797,"
+",E,,0
+798,"					ARD'RIAN
+",C,,0
+799,"			I didn't know that was possible!
+",D,,0
+800,"			What's your memory capacity? How
+",D,,0
+801,"			many operations per second? I
+",D,,0
+802,"			have a million questions...
+",D,,0
+803,"
+",E,,0
+804,"					DATA
+",C,,0
+805,"			I am afraid I have no time to
+",D,,0
+806,"			answer one million questions.
+",D,,0
+807,"			I have a mission to accomplish.
+",D,,0
+808,"					(MORE)
+",C,,0
+809,"
+",E,,0
+810,"STAR TREK: ""Ensigns of Command"" REV. 7/24/89 - ACT ONE   14.",H,,0
+811,"
+",E,,0
+812,11B  CONTINUED: (2),S,,0
+813,"
+",E,,0
+814,"					DATA (cont'd)
+",C,,0
+815,"			I need to know more about your
+",D,,0
+816,"			people, and Gosheven seems
+",D,,0
+817,"			unwilling to talk to me further.
+",D,,0
+818,"
+",E,,0
+819,"					ARD'RIAN
+",C,,0
+820,"				(extending a hand)
+",M,,0
+821,"			I'm Ard'rian McKenzie. Perhaps
+",D,,0
+822,"			I can help you.
+",D,,0
+823,"
+",E,,0
+824,"	As Data shakes her hand, we:
+",A,,0
+825,"
+",E,,0
+826,"									CUT TO:
+",O,,0
+827,"
+",E,,0
+828,12   INT. OBSERVATION LOUNGE,S,,0
+829,"
+",E,,0
+830,"	Picard, Riker and TROI are seated as GEORDI, O'Brien
+",A,,0
+831,"	ENTER.
+",A,,0
+832,"
+",E,,0
+833,"					RIKER
+",C,,0
+834,"			Gentlemen, we're giving you an
+",D,,0
+835,"			assignment, and the one thing we
+",D,,0
+836,"			don't want to hear is that it is
+",D,,0
+837,"			impossible.
+",D,,0
+838,"
+",E,,0
+839,"	Riker defers to Picard. Geordi and O'Brien cast wary
+",A,,0
+840,"	glances at Picard. Now what the hell is he going to
+",A,,0
+841,"	want?
+",A,,0
+842,"
+",E,,0
+843,"					PICARD
+",C,,0
+844,"			I need the transporters to
+",D,,0
+845,"			function despite the hyperonic
+",D,,0
+846,"			radiation.
+",D,,0
+847,"
+",E,,0
+848,"					GEORDI
+",C,,0
+849,"			Impossi -- Yes, sir.
+",D,,0
+850,"
+",E,,0
+851,"	Geordi and O'Brien EXIT. Riker, Troi and Picard study
+",A,,0
+852,"	each other seriously.
+",A,,0
+853,"
+",E,,0
+854,"					RIKER
+",C,,0
+855,"			Even if we can get the Sheliak
+",D,,0
+856,"			to talk to us, they're not likely
+",D,,0
+857,"			to be accommodating.
+",D,,0
+858,"
+",E,,0
+859,"STAR TREK: ""Ensigns of Command"" - REV. 7/13/89 - ACT ONE  15.",H,,0
+860,"
+",E,,0
+861,12   CONTINUED:,S,,0
+862,"
+",E,,0
+863,"					TROI
+",C,,0
+864,"			Captain, when the treaty was
+",D,,0
+865,"			negotiated the Federation sent
+",D,,0
+866,"			three hundred and seventy-two
+",D,,0
+867,"			legal experts. What have we got?
+",D,,0
+868,"
+",E,,0
+869,"					PICARD
+",C,,0
+870,"			Thee... and me.
+",D,,0
+871,"
+",E,,0
+872,"	Off Troi's very dubious expression as we:
+",A,,0
+873,"
+",E,,0
+874,"									FADE OUT.
+",O,,0
+875,"
+",E,,0
+876,"                        END OF ACT ONE                          
+",N,act,0
+877,"
+",E,,0
+878,"STAR TREK: ""Ensigns of Command"" - REV. 7/14/89 - ACT TWO  16.",H,,0
+879,"
+",E,,0
+880,"                            ACT TWO                             
+",N,act,0
+881,"
+",E,,0
+882,"	FADE IN:
+",A,,0
+883,"
+",E,,0
+884,13   EXT. SPACE - THE ENTERPRISE (OPTICAL),S,,0
+885,"
+",E,,0
+886,"	in orbit around Tau Cygna V.
+",A,,0
+887,"
+",E,,0
+888,14   INT. MAIN BRIDGE,S,,0
+889,"
+",E,,0
+890,"	Picard pacing, Troi seated as they wait for the call.
+",A,,0
+891,"	Worf at his station. Supernumeraries at Conn and Ops.
+",A,,0
+892,"
+",E,,0
+893,"					WORF
+",C,,0
+894,"			No response.
+",D,,0
+895,"
+",E,,0
+896,"					PICARD
+",C,,0
+897,"			Try again. Boost signal strength.
+",D,,0
+898,"
+",E,,0
+899,"	Worf makes adjustments.
+",A,,0
+900,"
+",E,,0
+901,"					WORF
+",C,,0
+902,"			Sheliak Corporate. This is the
+",D,,0
+903,"			Starship Enterprise. Respond
+",D,,0
+904,"			please.
+",D,,0
+905,"
+",E,,0
+906,15   ANGLE ON VIEWSCREEN - (OPTICAL),S,,0
+907,"
+",E,,0
+908,"	as it changes from a view of stars to -- someplace? a
+",A,,0
+909,"	bridge? Wherever the SHELIAK are calling from it is
+",A,,0
+910,"	a disturbing place for humans. Darkness, mirrored
+",A,,0
+911,"	surfaces, and hidden in the shadows a creature who is
+",A,,0
+912,"	decidedly unsettling for the crew. Its shape is
+",A,,0
+913,"	constantly shifting like oozing sludge, and there is
+",A,,0
+914,"	a hint of flickering eyes -- too many eyes.
+",A,,0
+915,"
+",E,,0
+916,"					SHELIAK
+",C,,0
+917,"			Conversation is neither required
+",D,,0
+918,"			nor desired.
+",D,,0
+919,"
+",E,,0
+920,"	Picard schools his features into an expression of
+",A,,0
+921,"	polite interest.
+",A,,0
+922,"
+",E,,0
+923,"					PICARD
+",C,,0
+924,"			Conversation is necessary if we
+",D,,0
+925,"			are to find a solution to our
+",D,,0
+926,"			mutual problem.
+",D,,0
+927,"
+",E,,0
+928,"					SHELIAK
+",C,,0
+929,"			Our involvement in Federation
+",D,,0
+930,"			illegality is not indicated.
+",D,,0
+931,"
+",E,,0
+932,"STAR TREK: ""Ensigns of Command"" - REV. 7/14/89 - ACT TWO  17.",H,,0
+933,"
+",E,,0
+934,15   CONTINUED:,S,,0
+935,"
+",E,,0
+936,"					PICARD
+",C,,0
+937,"			Both parties are involved, sir.
+",D,,0
+938,"
+",E,,0
+939,"					SHELIAK
+",C,,0
+940,"			Remove the humans from the Tau
+",D,,0
+941,"			Cygna system. Three Earth days
+",D,,0
+942,"			remain.
+",D,,0
+943,"
+",E,,0
+944,"	Troi leans in, and whispers:
+",A,,0
+945,"
+",E,,0
+946,"					TROI
+",C,,0
+947,"			Their culture is extremely formal,
+",D,,0
+948,"			almost ritualistic. An apology
+",D,,0
+949,"			might smooth matters.
+",D,,0
+950,"
+",E,,0
+951,"					PICARD
+",C,,0
+952,"			I apologize for our inadvertent
+",D,,0
+953,"			violation of the treaty.
+",D,,0
+954,"
+",E,,0
+955,"					SHELIAK
+",C,,0
+956,"			Acknowledged and accepted. Now
+",D,,0
+957,"			remove the human creatures.
+",D,,0
+958,"
+",E,,0
+959,"					PICARD
+",C,,0
+960,"			Let us negotiate in good faith...
+",D,,0
+961,"
+",E,,0
+962,"					SHELIAK
+",C,,0
+963,"			Negotiate to what purpose? The
+",D,,0
+964,"			treaty is signed.
+",D,,0
+965,"
+",E,,0
+966,"					PICARD
+",C,,0
+967,"			There is a thriving colony on the
+",D,,0
+968,"			planet. Rather than uproot these
+",D,,0
+969,"			people may I offer a compromise?
+",D,,0
+970,"
+",E,,0
+971,"					SHELIAK
+",C,,0
+972,"			Denied.
+",D,,0
+973,"
+",E,,0
+974,"					PICARD
+",C,,0
+975,"			Why?!
+",D,,0
+976,"
+",E,,0
+977,"					SHELIAK
+",C,,0
+978,"			The law is paramount. We are
+",D,,0
+979,"			entitled.
+",D,,0
+980,"
+",E,,0
+981,"					PICARD
+",C,,0
+982,"			This is not a law. It is a
+",D,,0
+983,"			treaty. It is designed to smooth
+",D,,0
+984,"			relations between peoples. Not
+",D,,0
+985,"			to act as a strait...
+",D,,0
+986,"
+",E,,0
+987,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT TWO   18.",H,,0
+988,"
+",E,,0
+989,15   CONTINUED: (2),S,,0
+990,"
+",E,,0
+991,"	But Picard's talking to a blank screen. The Sheliak
+",A,,0
+992,"	have hung up on him.
+",A,,0
+993,"
+",E,,0
+994,"					PICARD
+",C,,0
+995,"			... jacket.
+",D,,0
+996,"
+",E,,0
+997,"	Off Picard's annoyed expression.
+",A,,0
+998,"
+",E,,0
+999,"									CUT TO:
+",O,,0
+1000,"
+",E,,0
+1001,16   OMITTED,S,,0
+1002,"
+",E,,0
+1003,17   INT. ARD'RIAN'S FRONT ROOM - DAY,S,,0
+1004,"
+",E,,0
+1005,"	A comfortable room constructed of stone with a heavy
+",A,,0
+1006,"	beamed ceiling. The furniture is hand hewn, durable
+",A,,0
+1007,"	but comfortable. Contrasting with this are various
+",A,,0
+1008,"	computer parts and consoles, both assembled and in
+",A,,0
+1009,"	pieces, strewn about.
+",A,,0
+1010,"
+",E,,0
+1011,"	Ard'rian and Data ENTER.
+",A,,0
+1012,"
+",E,,0
+1013,"					ARD'RIAN
+",C,,0
+1014,"			... you really think we'll have
+",D,,0
+1015,"			to leave Tau Cygna Five?
+",D,,0
+1016,"
+",E,,0
+1017,"					DATA
+",C,,0
+1018,"			The possibility exists, and
+",D,,0
+1019,"			Gosheven appears unwilling to
+",D,,0
+1020,"			prepare for it. Why?
+",D,,0
+1021,"
+",E,,0
+1022,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT TWO   19.",H,,0
+1023,"
+",E,,0
+1024,17   CONTINUED:,S,,0
+1025,"
+",E,,0
+1026,"					ARD'RIAN
+",C,,0
+1027,"			Maybe because you're an
+",D,,0
+1028,"			android. I don't think Gosheven
+",D,,0
+1029,"			likes the idea of machines
+",D,,0
+1030,"			ordering him around.
+",D,,0
+1031,"
+",E,,0
+1032,"					DATA
+",C,,0
+1033,"			I am not ordering him to do
+",D,,0
+1034,"			anything; I am merely trying to
+",D,,0
+1035,"			persuade him that his people
+",D,,0
+1036,"			should prepare to evacuate.
+",D,,0
+1037,"				(thinks)
+",M,,0
+1038,"			Do you believe my suggested
+",D,,0
+1039,"			course of action should be followed?
+",D,,0
+1040,"
+",E,,0
+1041,"					ARD'RIAN
+",C,,0
+1042,"			Of course.
+",D,,0
+1043,"
+",E,,0
+1044,"					DATA
+",C,,0
+1045,"			In spite of the fact that I am
+",D,,0
+1046,"			an android?
+",D,,0
+1047,"
+",E,,0
+1048,"					ARD'RIAN
+",C,,0
+1049,"			Because of that fact. I don't
+",D,,0
+1050,"			have any silly prejudices against
+",D,,0
+1051,"			computers -- I like them.
+",D,,0
+1052,"
+",E,,0
+1053,"	SHe gestures around the room, a bit apologetically:
+",A,,0
+1054,"
+",E,,0
+1055,"					ARD'RIAN (cont'd)
+",C,,0
+1056,"			Not that any computer we have is
+",D,,0
+1057,"			half as sophisticated as you...
+",D,,0
+1058,"
+",E,,0
+1059,"	Data looks at a particularly ""primitive"" computer:
+",A,,0
+1060,"
+",E,,0
+1061,"					DATA
+",C,,0
+1062,"			No, I would say not.
+",D,,0
+1063,"
+",E,,0
+1064,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT TWO   20.",H,,0
+1065,"
+",E,,0
+1066,17   CONTINUED: (2),S,,0
+1067,"
+",E,,0
+1068,"					ARD'RIAN (cont'd)
+",C,,0
+1069,"			People can be selfish,
+",D,,0
+1070,"			irrational, stubborn, malicious
+",D,,0
+1071,"			-- you name it. But computers
+",D,,0
+1072,"			don't have those failings.
+",D,,0
+1073,"
+",E,,0
+1074,"	Data follows her logic:
+",A,,0
+1075,"
+",E,,0
+1076,"					DATA
+",C,,0
+1077,"			You conclude from this that I am
+",D,,0
+1078,"			impartial... hence you accept
+",D,,0
+1079,"			my recommendations.
+",D,,0
+1080,"
+",E,,0
+1081,"	She nods.
+",A,,0
+1082,"
+",E,,0
+1083,"					DATA (cont'd)
+",C,,0
+1084,"			Yet Gosheven does not.
+",D,,0
+1085,"				(thinks)
+",M,,0
+1086,"			Perhaps he might reconsider his
+",D,,0
+1087,"			position if someone other than
+",D,,0
+1088,"			myself were to present the
+",D,,0
+1089,"			arguments.
+",D,,0
+1090,"
+",E,,0
+1091,"					ARD'RIAN
+",C,,0
+1092,"			Well, I'm willing to talk to him,
+",D,,0
+1093,"			but I don't think he'll take me
+",D,,0
+1094,"			seriously.
+",D,,0
+1095,"				(with distaste)
+",M,,0
+1096,"			He finds me attractive -- but I'm
+",D,,0
+1097,"			not interested in him at all.
+",D,,0
+1098,"			So he belittles me to protect his
+",D,,0
+1099,"			ego --
+",D,,0
+1100,"
+",E,,0
+1101,18   OMITTED,S,,0
+1102,"
+",E,,0
+1103,19   NEW ANGLE,S,,0
+1104,"
+",E,,0
+1105,"	as Data's communicator TRILLS. He touches the
+",A,,0
+1106,"	insignia.
+",A,,0
+1107,"
+",E,,0
+1108,"					DATA
+",C,,0
+1109,"			Data, here.
+",D,,0
+1110,"
+",E,,0
+1111,"					PICARD'S COM VOICE
+",C,,0
+1112,"			The Sheliak won't bargain.
+",D,,0
+1113,"
+",E,,0
+1114,"					DATA
+",C,,0
+1115,"			Understood.
+",D,,0
+1116,"
+",E,,0
+1117,"STAR TREK: ""Ensigns of Command"" - REV. 7/18/89 - ACT TWO 20A.",H,,0
+1118,"
+",E,,0
+1119,19   CONTINUED:,S,,0
+1120,"
+",E,,0
+1121,"					PICARD'S COM VOICE
+",C,,0
+1122,"			I'm contacting Starfleet to
+",D,,0
+1123,"			arrange for transport. Get those
+",D,,0
+1124,"			people prepared for evacuation.
+",D,,0
+1125,"			We may have to move very quickly.
+",D,,0
+1126,"
+",E,,0
+1127,"STAR TREK: ""Ensigns of Command"" - REV. 7/13/89 - ACT TWO  21.",H,,0
+1128,"
+",E,,0
+1129,19   CONTINUED:,S,,0
+1130,"
+",E,,0
+1131,"					DATA
+",C,,0
+1132,"			Yes, sir.
+",D,,0
+1133,"
+",E,,0
+1134,"	Data cuts the communication, turns to Ard'rian.
+",A,,0
+1135,"
+",E,,0
+1136,"					DATA
+",C,,0
+1137,"			We must speak with Gosheven
+",D,,0
+1138,"			immediately.
+",D,,0
+1139,"
+",E,,0
+1140,"	Ard'rian grabs a coat, and they EXIT.
+",A,,0
+1141,"
+",E,,0
+1142,"									CUT TO:
+",O,,0
+1143,"
+",E,,0
+1144,19A  INT. TRANSPORTER ROOM (OPTICAL) (FORMERLY SC. 16),S,,0
+1145,"
+",E,,0
+1146,"	Geordi, O'Brien and WESLEY have the panels removed
+",A,,0
+1147,"	from the wall behind the transporter console. Geordi's
+",A,,0
+1148,"	tool box is nearby. Sophisticated tools litter the
+",A,,0
+1149,"	floor. Off to the left side of the transporter are
+",A,,0
+1150,"	six test objects. The trio is watching tensely as
+",A,,0
+1151,"	O'Brien touches the console. A test object
+",A,,0
+1152,"	MATERIALIZES looking like swiss cheese. Geordi picks
+",A,,0
+1153,"	it up. Riker ENTERS.
+",A,,0
+1154,"
+",E,,0
+1155,"					RIKER
+",C,,0
+1156,"			Gentlemen, how are you coming?
+",D,,0
+1157,"				(spots the object)
+",M,,0
+1158,"			What the hell is that?
+",D,,0
+1159,"
+",E,,0
+1160,"	Geordi sets aside the mutilated object.
+",A,,0
+1161,"
+",E,,0
+1162,"					GEORDI
+",C,,0
+1163,"			Our first attempt.
+",D,,0
+1164,"
+",E,,0
+1165,"					O'BRIEN
+",C,,0
+1166,"			We recalibrated the transporter
+",D,,0
+1167,"			setting for the tightest possible
+",D,,0
+1168,"			beam.
+",D,,0
+1169,"
+",E,,0
+1170,"					WESLEY
+",C,,0
+1171,"			But we've got plenty of things
+",D,,0
+1172,"			left to try.
+",D,,0
+1173,"
+",E,,0
+1174,"	Geordi is studying the test object again.
+",A,,0
+1175,"
+",E,,0
+1176,"					GEORDI
+",C,,0
+1177,"			There's some really interesting
+",D,,0
+1178,"			residue . . . reminds me of --
+",D,,0
+1179,"				(a beat)
+",M,,0
+1180,"			There's that damn pulsar in the
+",D,,0
+1181,"			neighborhood.
+",D,,0
+1182,"
+",E,,0
+1183,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT TWO   22.",H,,0
+1184,"
+",E,,0
+1185,19A  CONTINUED:,S,,0
+1186,"
+",E,,0
+1187,"					WESLEY
+",C,,0
+1188,"			Teremi-thorons.
+",D,,0
+1189,"
+",E,,0
+1190,"					O'BRIEN
+",C,,0
+1191,"			This just got a lot harder.
+",D,,0
+1192,"
+",E,,0
+1193,"					WESLEY
+",C,,0
+1194,"			They're one of the most elusive
+",D,,0
+1195,"			sub-atomic particles known, and
+",D,,0
+1196,"			they really shred a transporter
+",D,,0
+1197,"			signal.
+",D,,0
+1198,"
+",E,,0
+1199,"					RIKER
+",C,,0
+1200,"			Thank you, Ensign, I passed
+",D,,0
+1201,"			physics.
+",D,,0
+1202,"				(to Geordi)
+",M,,0
+1203,"			Keep at it. We need those
+",D,,0
+1204,"			transporters.
+",D,,0
+1205,"
+",E,,0
+1206,"	Riker EXITS.
+",A,,0
+1207,"
+",E,,0
+1208,"					GEORDI
+",C,,0
+1209,"			We're going to have a lot of fun
+",D,,0
+1210,"			cracking this one.
+",D,,0
+1211,"
+",E,,0
+1212,"									CUT TO:
+",O,,0
+1213,"
+",E,,0
+1214,20,S,,0
+1215,"thru	OMITTED
+",S,,0
+1216,21,S,,0
+1217,"
+",E,,0
+1218,22   EXT. PLANET SURFACE - MAIN STREET - DAY,S,,0
+1219,"
+",E,,0
+1220,"	Gosheven, Data, and Ard'rian are standing near the pool
+",A,,0
+1221,"	of water. Gosheven cups some water in a hand.
+",A,,0
+1222,"
+",E,,0
+1223,"					GOSHEVEN
+",C,,0
+1224,"			See that? Do you have any idea
+",D,,0
+1225,"			what it is? What it means?
+",D,,0
+1226,"
+",E,,0
+1227,"					DATA
+",C,,0
+1228,"			It is water, a substance composed
+",D,,0
+1229,"			of two atoms of hydrogen --
+",D,,0
+1230,"
+",E,,0
+1231,"					GOSHEVEN
+",C,,0
+1232,"			It's not water. It's blood and
+",D,,0
+1233,"			sweat -- the result of a hundred
+",D,,0
+1234,"			and forty years of combined
+",D,,0
+1235,"			effort. (ALTERNATE: ninety
+",D,,0
+1236,"			years) This isn't a town.
+",D,,0
+1237,"					(MORE)
+",C,,0
+1238,"
+",E,,0
+1239,"STAR TREK: ""Ensigns of Command"" REV. 7/24/89 - ACT TWO   23.",H,,0
+1240,"
+",E,,0
+1241,22   CONTINUED:,S,,0
+1242,"
+",E,,0
+1243,"					GOSHEVEN (Cont'd)
+",C,,0
+1244,"			It's a monument to every man,
+",D,,0
+1245,"			woman, and child who has lived
+",D,,0
+1246,"			and died on Tau Cygna Five.
+",D,,0
+1247,"
+",E,,0
+1248,"					ARD'RIAN
+",C,,0
+1249,"			Gosheven, you're talking nonsense.
+",D,,0
+1250,"
+",E,,0
+1251,"					GOSHEVEN
+",C,,0
+1252,"			Am I? My grandfather's buried
+",D,,0
+1253,"			on that mountain.
+",D,,0
+1254,"				(points to the distant
+",M,,0
+1255,"				 line of hills)
+",M,,0
+1256,"			He died in a rock slide surveying
+",D,,0
+1257,"			the route for this aqueduct. This
+",D,,0
+1258,"			colony exists because of his
+",D,,0
+1259,"			sacrifice, and the sacrifices of
+",D,,0
+1260,"			thousands of others. No, we're
+",D,,0
+1261,"			not leaving.
+",D,,0
+1262,"
+",E,,0
+1263,"					DATA
+",C,,0
+1264,"			The Sheliak will not accept humans
+",D,,0
+1265,"			on their planet. And they will
+",D,,0
+1266,"			not hesitate to use force to
+",D,,0
+1267,"			remove you.
+",D,,0
+1268,"
+",E,,0
+1269,"					GOSHEVEN
+",C,,0
+1270,"				(calmly)
+",M,,0
+1271,"			And we will not hesitate to fight
+",D,,0
+1272,"			back.
+",D,,0
+1273,"
+",E,,0
+1274,"					DATA
+",C,,0
+1275,"			You cannot win.
+",D,,0
+1276,"
+",E,,0
+1277,"					GOSHEVEN
+",C,,0
+1278,"			You just don't understand, do you?
+",D,,0
+1279,"			We will not be bullied off our
+",D,,0
+1280,"			land... not by you, and not by
+",D,,0
+1281,"			the Sheliak.
+",D,,0
+1282,"
+",E,,0
+1283,"	Gosheven whirls and walks away. End of conversation.
+",A,,0
+1284,"
+",E,,0
+1285,"STAR TREK: ""Ensigns of Command"" - REV. 7/18/89 - ACT TWO  24.",H,,0
+1286,"
+",E,,0
+1287,22   CONTINUED: (2),S,,0
+1288,"
+",E,,0
+1289,"					ARD'RIAN
+",C,,0
+1290,"				(re Gosheven; bitter)
+",M,,0
+1291,"			Stubborn and irrational. Now what
+",D,,0
+1292,"			do we do?
+",D,,0
+1293,"
+",E,,0
+1294,"					DATA
+",C,,0
+1295,"			Are his sentiments typical among
+",D,,0
+1296,"			the colonists?
+",D,,0
+1297,"
+",E,,0
+1298,"					ARD'RIAN
+",C,,0
+1299,"			I hope not. Are you thinking
+",D,,0
+1300,"			of bypassing Gosheven and taking
+",D,,0
+1301,"			your case directly to the people?
+",D,,0
+1302,"
+",E,,0
+1303,"					DATA
+",C,,0
+1304,"				(nods)
+",M,,0
+1305,"			I see no other course of action.
+",D,,0
+1306,"			If I can convince enough people
+",D,,0
+1307,"			of the necessity of leaving --
+",D,,0
+1308,"
+",E,,0
+1309,"					ARD'RIAN
+",C,,0
+1310,"				(a smile)
+",M,,0
+1311,"			Don't you mean ""if we can
+",D,,0
+1312,"			convince?""
+",D,,0
+1313,"
+",E,,0
+1314,"					DATA
+",C,,0
+1315,"			You are offering assistance?
+",D,,0
+1316,"
+",E,,0
+1317,"	Ard'rian nods, extends her arm -- c'mon, let's get
+",A,,0
+1318,"	going. As they move off:
+",A,,0
+1319,"
+",E,,0
+1320,"									CUT TO:
+",O,,0
+1321,"
+",E,,0
+1322,22A  EXT. SPACE - ENTERPRISE (OPTICAL) (FORMERLY SC. 20),S,,0
+1323,"
+",E,,0
+1324,"	In orbit around Tau Cygna V.
+",A,,0
+1325,"
+",E,,0
+1326,22B  INT. CAPTAIN'S READY ROOM (FORMERLY SC. 21),S,,0
+1327,"
+",E,,0
+1328,"	Picard is pacing rapidly about the office. Riker
+",A,,0
+1329,"	ENTERS.
+",A,,0
+1330,"
+",E,,0
+1331,"					RIKER
+",C,,0
+1332,"			Yes, sir?
+",D,,0
+1333,"
+",E,,0
+1334,"STAR TREK: ""Ensigns of Command"" - REV. 7/18/89 - ACT TWO  25.",H,,0
+1335,"
+",E,,0
+1336,22B  CONTINUED:,S,,0
+1337,"
+",E,,0
+1338,"					PICARD
+",C,,0
+1339,"			Three weeks. Starfleet is profuse
+",D,,0
+1340,"			in their apologies, but it will
+",D,,0
+1341,"			still be three weeks.
+",D,,0
+1342,"
+",E,,0
+1343,"					RIKER
+",C,,0
+1344,"			Until?
+",D,,0
+1345,"
+",E,,0
+1346,"					PICARD
+",C,,0
+1347,"			Until the arrival of a colony
+",D,,0
+1348,"			transport ship equipped with
+",D,,0
+1349,"			dedicated personnel shuttles.
+",D,,0
+1350,"
+",E,,0
+1351,"					RIKER
+",C,,0
+1352,"			We can't wait three weeks.
+",D,,0
+1353,"
+",E,,0
+1354,"					PICARD
+",C,,0
+1355,"			The Sheliak must agree to extend
+",D,,0
+1356,"			our deadline.
+",D,,0
+1357,"
+",E,,0
+1358,"	Picard sits in silence for a beat.
+",A,,0
+1359,"
+",E,,0
+1360,"					PICARD (cont'd)
+",C,,0
+1361,"			If they plan to settle Tau Cygna
+",D,,0
+1362,"			Five two days from now...
+",D,,0
+1363,"
+",E,,0
+1364,"					RIKER
+",C,,0
+1365,"			... one of their ships must already
+",D,,0
+1366,"			be en route.
+",D,,0
+1367,"
+",E,,0
+1368,"					PICARD
+",C,,0
+1369,"				(decides)
+",M,,0
+1370,"			We're going to intercept that
+",D,,0
+1371,"			ship.
+",D,,0
+1372,"
+",E,,0
+1373,"					RIKER
+",C,,0
+1374,"			The Sheliak may interpret that
+",D,,0
+1375,"			as a hostile act.
+",D,,0
+1376,"
+",E,,0
+1377,"					PICARD
+",C,,0
+1378,"			We have to take the risk.
+",D,,0
+1379,"
+",E,,0
+1380,"	Off Picard's determined expression as we:
+",A,,0
+1381,"
+",E,,0
+1382,"									FADE OUT.
+",O,,0
+1383,"
+",E,,0
+1384,"                        END OF ACT TWO                          
+",N,act,0
+1385,"
+",E,,0
+1386,"STAR TREK: ""Ensigns of Command"" - REV. 7/18/89 - ACT THREE 26.",H,,0
+1387,"
+",E,,0
+1388,"                           ACT THREE                            
+",N,act,0
+1389,"
+",E,,0
+1390,"	FADE IN:
+",A,,0
+1391,"
+",E,,0
+1392,23   INT. OBSERVATION LOUNGE,S,,0
+1393,"
+",E,,0
+1394,"	Riker pacing slowly, looking out at the stars.
+",A,,0
+1395,"
+",E,,0
+1396,"					RIKER
+",C,,0
+1397,"			The Enterprise is going to try
+",D,,0
+1398,"			to intercept the Sheliak colony
+",D,,0
+1399,"			ship. Your job ... well, you know
+",D,,0
+1400,"			your job.
+",D,,0
+1401,"
+",E,,0
+1402,"									CUT TO:
+",O,,0
+1403,"
+",E,,0
+1404,24   EXT. PLANET SURFACE - MAIN STREET - DAY,S,,0
+1405,"
+",E,,0
+1406,"	Data standing alone in an archway.
+",A,,0
+1407,"
+",E,,0
+1408,"					DATA
+",C,,0
+1409,"			Commander, in human parlance, I do
+",D,,0
+1410,"			not believe I can ""get the job
+",D,,0
+1411,"			done."" My training has prepared
+",D,,0
+1412,"			me for starship command duties.
+",D,,0
+1413,"			As a cultural contact I am
+",D,,0
+1414,"			proving to be less than exemplary.
+",D,,0
+1415,"
+",E,,0
+1416,25   INTERCUTS,S,,0
+1417,"
+",E,,0
+1418,"					RIKER
+",C,,0
+1419,"			What's the situation?
+",D,,0
+1420,"
+",E,,0
+1421,"					DATA
+",C,,0
+1422,"			Their leader has rejected my
+",D,,0
+1423,"			counsel. He denies the logic of
+",D,,0
+1424,"			my arguments and talks of
+",D,,0
+1425,"			structures they have built.
+",D,,0
+1426,"
+",E,,0
+1427,"					RIKER
+",C,,0
+1428,"			Then try something else.
+",D,,0
+1429,"
+",E,,0
+1430,"					DATA
+",C,,0
+1431,"			I have. In the last three hours
+",D,,0
+1432,"			and eight minutes, I have spoken
+",D,,0
+1433,"			to fifty-six colonists. Ten
+",D,,0
+1434,"			refused to believe a threat
+",D,,0
+1435,"			exists. Twenty-two favored
+",D,,0
+1436,"			staying and fighting the Sheliak.
+",D,,0
+1437,"
+",E,,0
+1438,"STAR TREK: ""Ensigns of Command"" - REV. 7/14/89 - ACT THREE26A.",H,,0
+1439,"
+",E,,0
+1440,25   CONTINUED:,S,,0
+1441,"
+",E,,0
+1442,"					RIKER
+",C,,0
+1443,"				(more to himself)
+",M,,0
+1444,"			I don't have time for this.
+",D,,0
+1445,"
+",E,,0
+1446,"					DATA
+",C,,0
+1447,"			Sixteen preferred negotiation or
+",D,,0
+1448,"			some form of passive resistance.
+",D,,0
+1449,"			Only eight were willing to
+",D,,0
+1450,"			consider evacuation. And of those
+",D,,0
+1451,"			eight --
+",D,,0
+1452,"
+",E,,0
+1453,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT THREE  27.",H,,0
+1454,"
+",E,,0
+1455,25   CONTINUED: (2),S,,0
+1456,"
+",E,,0
+1457,"					RIKER
+",C,,0
+1458,"				(cutting him)
+",D,,0
+1459,"			Data, I can't help you -- I don't
+",D,,0
+1460,"			know these people; I haven't
+",D,,0
+1461,"			talked to them. You have. Use
+",D,,0
+1462,"			that fancy positronic brain of
+",D,,0
+1463,"			yours -- and carry out your
+",D,,0
+1464,"			mission.
+",D,,0
+1465,"
+",E,,0
+1466,"	Ard'rian walks up to join the android, politely keeps
+",A,,0
+1467,"	a few paces away to let him complete his ""phone call""
+",A,,0
+1468,"	with privacy.
+",A,,0
+1469,"
+",E,,0
+1470,"					DATA
+",C,,0
+1471,"			If I do not succeed, how violent
+",D,,0
+1472,"			is the Sheliak reaction likely
+",D,,0
+1473,"			to be?
+",D,,0
+1474,"
+",E,,0
+1475,"					RIKER
+",C,,0
+1476,"			The treaty is the only thing which
+",D,,0
+1477,"			kept them from eradicating the
+",D,,0
+1478,"			colony the moment they discovered
+",D,,0
+1479,"			it.
+",D,,0
+1480,"
+",E,,0
+1481,"					DATA
+",C,,0
+1482,"			Ah.
+",D,,0
+1483,"
+",E,,0
+1484,"					RIKER
+",C,,0
+1485,"			""Ah"" is right. The lives of
+",D,,0
+1486,"			fifteen thousand people are riding
+",D,,0
+1487,"			on you. You'd better get
+",D,,0
+1488,"			innovative. Riker out.
+",D,,0
+1489,"
+",E,,0
+1490,"	Data gazes into space, thinking. Ard'rian steps up.
+",A,,0
+1491,"	Her mood is upbeat.
+",A,,0
+1492,"
+",E,,0
+1493,"					ARD'RIAN
+",C,,0
+1494,"			Data -- we're having an effect.
+",D,,0
+1495,"			So many people are asking
+",D,,0
+1496,"			questions about the Sheliak that
+",D,,0
+1497,"			Gosheven's called a public
+",D,,0
+1498,"			meeting.
+",D,,0
+1499,"
+",E,,0
+1500,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT THREE  28.",H,,0
+1501,"
+",E,,0
+1502,25   CONTINUED: (3),S,,0
+1503,"
+",E,,0
+1504,"					DATA
+",C,,0
+1505,"			Is there any indication that
+",D,,0
+1506,"			Gosheven has changed his position?
+",D,,0
+1507,"
+",E,,0
+1508,"					ARD'RIAN
+",C,,0
+1509,"			No. But a meeting will give you
+",D,,0
+1510,"			the chance to present your
+",D,,0
+1511,"			recommendations.
+",D,,0
+1512,"
+",E,,0
+1513,"					DATA
+",C,,0
+1514,"			First, will Gosheven allow me to
+",D,,0
+1515,"			speak? Second, even if he does,
+",D,,0
+1516,"			what good will it do? So far,
+",D,,0
+1517,"			my attempts at persuasion have
+",D,,0
+1518,"			been ineffective.
+",D,,0
+1519,"
+",E,,0
+1520,"	Ard'rian looks at him with compassion for a beat --
+",A,,0
+1521,"	then suddenly gives Data a quick kiss on the lips.
+",A,,0
+1522,"
+",E,,0
+1523,"					DATA (cont'd)
+",C,,0
+1524,"			Why did you do that?
+",D,,0
+1525,"
+",E,,0
+1526,"					ARD'RIAN
+",C,,0
+1527,"			You appeared to need it.
+",D,,0
+1528,"
+",E,,0
+1529,"					DATA
+",C,,0
+1530,"			Among humans, a kiss normally
+",D,,0
+1531,"			serves to seal a friendship or
+",D,,0
+1532,"			to indicate support, attraction,
+",D,,0
+1533,"			affection.
+",D,,0
+1534,"
+",E,,0
+1535,"	Ard'rian nods.
+",A,,0
+1536,"
+",E,,0
+1537,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT THREE  29.",H,,0
+1538,"
+",E,,0
+1539,25   CONTINUED: (4),S,,0
+1540,"
+",E,,0
+1541,"					DATA (cont'd)
+",C,,0
+1542,"			In this context, I would assume
+",D,,0
+1543,"			your intention was to express
+",D,,0
+1544,"			support.
+",D,,0
+1545,"
+",E,,0
+1546,"					ARD'RIAN
+",C,,0
+1547,"			That was my primary motivation.
+",D,,0
+1548,"
+",E,,0
+1549,"	The implication being that there were secondary
+",A,,0
+1550,"	motivations. But if Data is aware of the implication,
+",A,,0
+1551,"	he makes no sign.
+",A,,0
+1552,"
+",E,,0
+1553,"					ARD'RIAN (cont'd)
+",C,,0
+1554,"			You don't really understand human
+",D,,0
+1555,"			behavior, do you?
+",D,,0
+1556,"
+",E,,0
+1557,"					DATA
+",C,,0
+1558,"			That is something of an
+",D,,0
+1559,"			understatement.
+",D,,0
+1560,"
+",E,,0
+1561,"					ARD'RIAN
+",C,,0
+1562,"				(sighs)
+",M,,0
+1563,"			Sometimes I don't either.
+",D,,0
+1564,"			androids are a lot more rational.
+",D,,0
+1565,"
+",E,,0
+1566,"					DATA
+",C,,0
+1567,"			Thus far, that quality has not
+",D,,0
+1568,"			helped me accomplish my mission.
+",D,,0
+1569,"
+",E,,0
+1570,"					ARD'RIAN
+",C,,0
+1571,"			A rational argument isn't always
+",D,,0
+1572,"			enough. Maybe to be more
+",D,,0
+1573,"			persuasive, you need to use a
+",D,,0
+1574,"			little reverse psychology.
+",D,,0
+1575,"
+",E,,0
+1576,"					DATA
+",C,,0
+1577,"				(accessing)
+",M,,0
+1578,"			Elicit a desired behavior by
+",D,,0
+1579,"			advocating its opposite?
+",D,,0
+1580,"				(a beat)
+",M,,0
+1581,"			That implies deception, does it
+",D,,0
+1582,"			not?
+",D,,0
+1583,"
+",E,,0
+1584,"					ARD'RIAN
+",C,,0
+1585,"			A little. But if it helps us
+",D,,0
+1586,"			get our point across...
+",D,,0
+1587,"
+",E,,0
+1588,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT THREE  30.",H,,0
+1589,"
+",E,,0
+1590,25   CONTINUED: (5),S,,0
+1591,"
+",E,,0
+1592,"					DATA
+",C,,0
+1593,"				(considers)
+",M,,0
+1594,"			Perhaps this is a situation in
+",D,,0
+1595,"			which excessive honesty is
+",D,,0
+1596,"			detrimental.
+",D,,0
+1597,"
+",E,,0
+1598,"	As they walk off:
+",A,,0
+1599,"
+",E,,0
+1600,"									CUT TO:
+",O,,0
+1601,"
+",E,,0
+1602,26   EXT. SPACE - THE ENTERPRISE (OPTICAL),S,,0
+1603,"
+",E,,0
+1604,"	Travelling at warp speed.
+",A,,0
+1605,"
+",E,,0
+1606,27   INT. TRANSPORTER ROOM,S,,0
+1607,"
+",E,,0
+1608,"	As before, except there are more high tech tools and
+",A,,0
+1609,"	equipment lying about. Geordi is lifting yet another
+",A,,0
+1610,"	trashed test object off the platform. He holds it
+",A,,0
+1611,"	mutely out to Wesley and O'Brien who stare dully at
+",A,,0
+1612,"	this latest failure. There are now four intact
+",A,,0
+1613,"	objects and three blasted ones. Picard ENTERS.
+",A,,0
+1614,"
+",E,,0
+1615,"					PICARD
+",C,,0
+1616,"				(you will get it done)
+",M,,0
+1617,"			How are we progressing, Mister
+",D,,0
+1618,"			La Forge?
+",D,,0
+1619,"
+",E,,0
+1620,"					GEORDI
+",C,,0
+1621,"				(it's impossible)
+",M,,0
+1622,"			About like you'd expect.
+",D,,0
+1623,"
+",E,,0
+1624,"					PICARD
+",C,,0
+1625,"				(get it done)
+",M,,0
+1626,"			Splendid.
+",D,,0
+1627,"
+",E,,0
+1628,"	Picard EXITS.
+",A,,0
+1629,"
+",E,,0
+1630,"					WESLEY
+",C,,0
+1631,"				(wearily)
+",M,,0
+1632,"			He wants the impossible.
+",D,,0
+1633,"
+",E,,0
+1634,"STAR TREK: ""Ensigns of Command"" - REV. 7/14/89 - ACT THREE 31.",H,,0
+1635,"
+",E,,0
+1636,27   CONTINUED:,S,,0
+1637,"
+",E,,0
+1638,"					GEORDI
+",C,,0
+1639,"				(with a grin)
+",M,,0
+1640,"			That's the short definition for
+",D,,0
+1641,"			""captain.""
+",D,,0
+1642,"
+",E,,0
+1643,"	Geordi and O'Brien have already returned to work. Wes
+",A,,0
+1644,"	looks at them bemused, then shrugs and pitches in.
+",A,,0
+1645,"
+",E,,0
+1646,"									CUT TO:
+",O,,0
+1647,"
+",E,,0
+1648,28   EXT. PLANET SURFACE - MAIN STREET - DAY,S,,0
+1649,"
+",E,,0
+1650,"	A large horseshoe-shaped amphitheater with a place for
+",A,,0
+1651,"	the engineers and Gosheven. A number of citizens --
+",A,,0
+1652,"	including Haritath and Kentor -- have turned out for
+",A,,0
+1653,"	the debate so the place is filled. In the b.g. is the
+",A,,0
+1654,"	aqueduct purifying plant.
+",A,,0
+1655,"
+",E,,0
+1656,"					GOSHEVEN
+",C,,0
+1657,"			You've all heard about the android
+",D,,0
+1658,"			Starfleet sent here, and you've
+",D,,0
+1659,"			been discussing why he's come.
+",D,,0
+1660,"
+",E,,0
+1661,"	Data and Ard'rian ENTER. Gosheven ignores them.
+",A,,0
+1662,"
+",E,,0
+1663,"					GOSHEVEN (cont'd)
+",C,,0
+1664,"			I called this meeting to replace
+",D,,0
+1665,"			misinformation with cold, hard
+",D,,0
+1666,"			fact.
+",D,,0
+1667,"
+",E,,0
+1668,"	The colonists are craning their necks to look at Data.
+",A,,0
+1669,"	Gosheven realizes Data's presence can't be ignored. He
+",A,,0
+1670,"	strides over to confront Data.
+",A,,0
+1671,"
+",E,,0
+1672,"					GOSHEVEN
+",C,,0
+1673,"			Leave. Immediately.
+",D,,0
+1674,"
+",E,,0
+1675,"					DATA
+",C,,0
+1676,"			I wish to speak.
+",D,,0
+1677,"
+",E,,0
+1678,"					GOSHEVEN
+",C,,0
+1679,"			No.
+",D,,0
+1680,"
+",E,,0
+1681,"					DATA
+",C,,0
+1682,"				(loud, for the crowd's
+",M,,0
+1683,"				 benefit)
+",M,,0
+1684,"			You deny me the opportunity to
+",D,,0
+1685,"			address the assemblage?
+",D,,0
+1686,"
+",E,,0
+1687,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT THREE  32.",H,,0
+1688,"
+",E,,0
+1689,28   CONTINUED:,S,,0
+1690,"
+",E,,0
+1691,"					GOSHEVEN
+",C,,0
+1692,"			This meeting is not for outsiders.
+",D,,0
+1693,"
+",E,,0
+1694,"					DATA
+",C,,0
+1695,"			Do you consider your position so
+",D,,0
+1696,"			weak that it cannot withstand
+",D,,0
+1697,"			debate?
+",D,,0
+1698,"
+",E,,0
+1699,"					HARITATH
+",C,,0
+1700,"			Let him talk.
+",D,,0
+1701,"
+",E,,0
+1702,"	MURMURS of assent from the crowd. Gosheven gives a
+",A,,0
+1703,"	terse nod. In a sense Data's called him a coward and
+",A,,0
+1704,"	he has to stand up to this city slicker, this outsider.
+",A,,0
+1705,"
+",E,,0
+1706,"	Data steps front and center. In an effort to pull this
+",A,,0
+1707,"	off, he attempts to use human rhetorical devices
+",A,,0
+1708,"	(timing, dynamics, inflection, gestures, etc.) -- but,
+",A,,0
+1709,"	as there's no real passion behind them, they come off
+",A,,0
+1710,"	as studied and not quite sincere. A good performance,
+",A,,0
+1711,"	but still a performance.
+",A,,0
+1712,"
+",E,,0
+1713,"					DATA
+",C,,0
+1714,"			You know of the Sheliak threat.
+",D,,0
+1715,"			Starfleet wishes to evacuate you
+",D,,0
+1716,"			for your own protection.
+",D,,0
+1717,"			Gosheven has decided otherwise.
+",D,,0
+1718,"			That is his right. And I will
+",D,,0
+1719,"			not waste time trying to reverse
+",D,,0
+1720,"			that decision.
+",D,,0
+1721,"
+",E,,0
+1722,"	Surprised reactions from the crowd. This is not what
+",A,,0
+1723,"	they expected to hear.
+",A,,0
+1724,"
+",E,,0
+1725,"					DATA (cont'd)
+",C,,0
+1726,"			I admire your conviction in the
+",D,,0
+1727,"			face of certain defeat. Your
+",D,,0
+1728,"			effort will be valiant, though
+",D,,0
+1729,"			doomed. Still, when you die,
+",D,,0
+1730,"			you will die for land and honor.
+",D,,0
+1731,"
+",E,,0
+1732,29   ANGLE ON,S,,0
+1733,"
+",E,,0
+1734,"	The crowd. Data's starting to get a reaction. People
+",A,,0
+1735,"	are beginning to eye each other nervously. It's one
+",A,,0
+1736,"	thing to thumb your nose at a distant enemy, quite
+",A,,0
+1737,"	another to talk about dying.
+",A,,0
+1738,"
+",E,,0
+1739,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT THREE  33.",H,,0
+1740,"
+",E,,0
+1741,30   ANGLE ON DATA,S,,0
+1742,"
+",E,,0
+1743,"	As he reaches down, and takes a YOUNG BOY (twelve or
+",A,,0
+1744,"	so) by the arm, and pulls the child up next to him.
+",A,,0
+1745,"
+",E,,0
+1746,"					DATA
+",C,,0
+1747,"			Your children will understand that
+",D,,0
+1748,"			they are dying for a worthy cause.
+",D,,0
+1749,"
+",E,,0
+1750,"	Big crowd reaction here. Murmurs from various people.
+",A,,0
+1751,"	Mothers pull their children closer to them. Data
+",A,,0
+1752,"	steals a glance at Ard'rian -- ""how am I doing?""
+",A,,0
+1753,"	Ard'rian nods encouragingly back -- ""fine.""
+",A,,0
+1754,"
+",E,,0
+1755,"					DATA
+",C,,0
+1756,"				(continuing)
+",M,,0
+1757,"			Long after the battle is over,
+",D,,0
+1758,"			their courage will be remembered
+",D,,0
+1759,"			and extolled.
+",D,,0
+1760,"
+",E,,0
+1761,"	Ard'rian jumps in to support him.
+",A,,0
+1762,"
+",E,,0
+1763,"					ARD'RIAN
+",C,,0
+1764,"			Remembered by who?
+",D,,0
+1765,"
+",E,,0
+1766,"					DATA
+",C,,0
+1767,"				(as if he hadn't
+",M,,0
+1768,"				 considered that)
+",M,,0
+1769,"			Ah, that is true. There will be
+",D,,0
+1770,"			no one left alive to remember.
+",D,,0
+1771,"
+",E,,0
+1772,31   ANGLE ON GOSHEVEN,S,,0
+1773,"
+",E,,0
+1774,"	as he begins to applaud slowly.
+",A,,0
+1775,"
+",E,,0
+1776,"					GOSHEVEN
+",C,,0
+1777,"			A valiant try, android, but what
+",D,,0
+1778,"			a low opinion you must have of
+",D,,0
+1779,"			us.
+",D,,0
+1780,"
+",E,,0
+1781,"	The boy's MOTHER snatches her son back from Data, and
+",A,,0
+1782,"	pulls him down in her lap.
+",A,,0
+1783,"
+",E,,0
+1784,"					DATA
+",C,,0
+1785,"			I was simply attempting to
+",D,,0
+1786,"			describe your inevitable
+",D,,0
+1787,"			destruction in a manner that
+",D,,0
+1788,"			would have an emotional effect.
+",D,,0
+1789,"
+",E,,0
+1790,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT THREE  34.",H,,0
+1791,"
+",E,,0
+1792,31   CONTINUED:,S,,0
+1793,"
+",E,,0
+1794,"					HARITATH
+",C,,0
+1795,"				(standing)
+",M,,0
+1796,"			And he did it pretty damned well.
+",D,,0
+1797,"
+",E,,0
+1798,"	MURMURS of agreement from the crowd.
+",A,,0
+1799,"
+",E,,0
+1800,"					GOSHEVEN
+",C,,0
+1801,"			Are you ready to follow this
+",D,,0
+1802,"			machine, Haritath? Give up
+",D,,0
+1803,"			everything? Without a fight?
+",D,,0
+1804,"			He says we're going to lose, I
+",D,,0
+1805,"			think that's his own cowardice
+",D,,0
+1806,"			talking!
+",D,,0
+1807,"
+",E,,0
+1808,"	Kentor stands. He has a calm but commanding presence.
+",A,,0
+1809,"
+",E,,0
+1810,"					KENTOR
+",C,,0
+1811,"			And what if he's right, and you're
+",D,,0
+1812,"			wrong? Shouldn't we consider that
+",D,,0
+1813,"			possibility?
+",D,,0
+1814,"
+",E,,0
+1815,"	More crowd reaction. Sympathy is swinging away from
+",A,,0
+1816,"	Gosheven.
+",A,,0
+1817,"
+",E,,0
+1818,"					HARITATH
+",C,,0
+1819,"			We may be sacrificing ourselves
+",D,,0
+1820,"			for nothing --
+",D,,0
+1821,"
+",E,,0
+1822,"					GOSHEVEN
+",C,,0
+1823,"			Last winter we buried your little
+",D,,0
+1824,"			girl -- laid her to rest next to
+",D,,0
+1825,"			your mother, and you dare speak
+",D,,0
+1826,"			of sacrifice?
+",D,,0
+1827,"
+",E,,0
+1828,"	Gosheven whirls and nails Kentor with a look.
+",A,,0
+1829,"
+",E,,0
+1830,"					GOSHEVEN
+",C,,0
+1831,"				(continuing)
+",M,,0
+1832,"			And you, Kentor, we built you
+",D,,0
+1833,"			a new house after the fire wiped
+",D,,0
+1834,"			you out. Can you simply walk away
+",D,,0
+1835,"			from that?
+",D,,0
+1836,"
+",E,,0
+1837,"					KENTOR
+",C,,0
+1838,"			Better to walk away than to be
+",D,,0
+1839,"			annihilated.
+",D,,0
+1840,"
+",E,,0
+1841,"STAR TREK: ""Ensigns of Command"" - REV. 7/18/89 - ACT THREE 35.",H,,0
+1842,"
+",E,,0
+1843,31   CONTINUED: (2),S,,0
+1844,"
+",E,,0
+1845,"					GOSHEVEN
+",C,,0
+1846,"				(addressing them all)
+",M,,0
+1847,"			This colony exists because
+",D,,0
+1848,"			generations gave their lives for
+",D,,0
+1849,"			it. Many people died before we
+",D,,0
+1850,"			found a way to adapt to the
+",D,,0
+1851,"			radiation. Many more died
+",D,,0
+1852,"			bringing water to the desert.
+",D,,0
+1853,"			My father --
+",D,,0
+1854,"
+",E,,0
+1855,"					ARD'RIAN
+",C,,0
+1856,"				(interrupting)
+",M,,0
+1857,"			-- is buried on that mountain.
+",D,,0
+1858,"			Well, who's going to be left to
+",D,,0
+1859,"			bury you?
+",D,,0
+1860,"
+",E,,0
+1861,"	A vote of confidence is about to take place, and
+",A,,0
+1862,"	Gosheven realizes he's about to lose it. He falls back
+",A,,0
+1863,"	on the innate authority of an elected leader.
+",A,,0
+1864,"
+",E,,0
+1865,"					GOSHEVEN
+",C,,0
+1866,"			Have you considered what this
+",D,,0
+1867,"			evacuation means? Everything we
+",D,,0
+1868,"			have, we abandon. Everything
+",D,,0
+1869,"			we've built turns into dust.
+",D,,0
+1870,"			Everything we've accomplished
+",D,,0
+1871,"			means nothing.
+",D,,0
+1872,"				(shakes head)
+",M,,0
+1873,"			Well, I say NO! You elected me
+",D,,0
+1874,"			to be your leader -- follow me
+",D,,0
+1875,"			now! I don't think our chances
+",D,,0
+1876,"			are as hopeless as he says. And
+",D,,0
+1877,"			I'm willing to stake our lives
+",D,,0
+1878,"			on it. Any objections?
+",D,,0
+1879,"
+",E,,0
+1880,"	He rakes the crowd with a look. Some mutterings, but
+",A,,0
+1881,"	nobody's quite ready to lead the revolution.
+",A,,0
+1882,"
+",E,,0
+1883,"					GOSHEVEN
+",C,,0
+1884,"				(continuing)
+",M,,0
+1885,"			Good, because here... we...
+",D,,0
+1886,"			stand.
+",D,,0
+1887,"
+",E,,0
+1888,"	A few people step up to pound Gosheven on the back, but
+",A,,0
+1889,"	most of the crowd remains huddled, glancing from Data
+",A,,0
+1890,"	to Gosheven and back again. Haritath and Kentor step
+",A,,0
+1891,"	away to talk in private.
+",A,,0
+1892,"
+",E,,0
+1893,"STAR TREK: ""Ensigns of Command"" - REV. 7/13/89 - ACT THREE 36.",H,,0
+1894,"
+",E,,0
+1895,32   ANGLE ON DATA,S,,0
+1896,"
+",E,,0
+1897,"	standing with Ard'rian.
+",A,,0
+1898,"
+",E,,0
+1899,"					DATA
+",C,,0
+1900,"				(almost to himself)
+",M,,0
+1901,"			Then here you die.
+",D,,0
+1902,"
+",E,,0
+1903,"									FADE OUT.
+",O,,0
+1904,"
+",E,,0
+1905,"                       END OF ACT THREE                         
+",N,act,0
+1906,"
+",E,,0
+1907,"STAR TREK: ""Ensigns of Command"" - REV. 7/18/89 - ACT THREE 37.",H,,0
+1908,"
+",E,,0
+1909,"                           ACT FOUR                             
+",N,act,0
+1910,"
+",E,,0
+1911,"	FADE IN:
+",A,,0
+1912,"
+",E,,0
+1913,33   INT. TRANSPORTER ROOM (OPTICAL),S,,0
+1914,"
+",E,,0
+1915,"	Wesley, Geordi and O'Brien. There are now three
+",A,,0
+1916,"	intact test object and four trashed ones. These are
+",A,,0
+1917,"	three exhausted people. They've been working round
+",A,,0
+1918,"	the clock.
+",A,,0
+1919,"
+",E,,0
+1920,"					WESLEY
+",C,,0
+1921,"			Maybe if we bypassed the autosequence
+",D,,0
+1922,"			and decompiled the
+",D,,0
+1923,"			pattern buffer... ?
+",D,,0
+1924,"
+",E,,0
+1925,"					GEORDI
+",C,,0
+1926,"				(shrugs)
+",M,,0
+1927,"			It's no crazier than anything
+",D,,0
+1928,"			else we've tried.
+",D,,0
+1929,"
+",E,,0
+1930,"	Wesley drops down by the panel, and begins to tinker
+",A,,0
+1931,"	while Geordi places the last test object on the
+",A,,0
+1932,"	platform. Suddenly the transporter console blows a
+",A,,0
+1933,"	fuse. Electricity races across the panel, and the
+",A,,0
+1934,"	console goes dark. O'Brien is not a happy man. Wesley
+",A,,0
+1935,"	slowly stands up. O'Brien struggles with himself, but
+",A,,0
+1936,"	can't master it.
+",A,,0
+1937,"
+",E,,0
+1938,"					O'BRIEN
+",C,,0
+1939,"			Ensign Crusher.
+",D,,0
+1940,"
+",E,,0
+1941,"					WESLEY
+",C,,0
+1942,"			Yes, sir.
+",D,,0
+1943,"
+",E,,0
+1944,"					O'BRIEN
+",C,,0
+1945,"			If you ever touch my transporter
+",D,,0
+1946,"			again... I'll kill you.
+",D,,0
+1947,"
+",E,,0
+1948,"					WESLEY
+",C,,0
+1949,"			Sorry, sir.
+",D,,0
+1950,"
+",E,,0
+1951,"									CUT TO:
+",O,,0
+1952,"
+",E,,0
+1953,33A  EXT. PLANET SURFACE - MAIN STREET - DAY,S,,0
+1954,"
+",E,,0
+1955,"	Data watches the town meeting break up into small
+",A,,0
+1956,"	groups of people TALKING among themselves. Ard'rian
+",A,,0
+1957,"	approaches.
+",A,,0
+1958,"
+",E,,0
+1959,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT THREE  38.",H,,0
+1960,"
+",E,,0
+1961,33A  CONTINUED:,S,,0
+1962,"
+",E,,0
+1963,"	Haritath and Kentor step up furtively.
+",A,,0
+1964,"
+",E,,0
+1965,"					HARITATH
+",C,,0
+1966,"			Mister Data -- I want to tell you
+",D,,0
+1967,"			that... well, Gosheven doesn't
+",D,,0
+1968,"			speak for all of us.
+",D,,0
+1969,"
+",E,,0
+1970,"	Ard'rian looks at Data hopefully -- maybe the early
+",A,,0
+1971,"	returns aren't so bad after all.
+",A,,0
+1972,"
+",E,,0
+1973,"					HARITATH (cont'd)
+",C,,0
+1974,"			I see no point in dying
+",D,,0
+1975,"			needlessly.
+",D,,0
+1976,"
+",E,,0
+1977,"					DATA
+",C,,0
+1978,"			And you, Kentor?
+",D,,0
+1979,"
+",E,,0
+1980,"					KENTOR
+",C,,0
+1981,"			I'm not sure. Gosheven has done
+",D,,0
+1982,"			well for us. But I'd like to hear
+",D,,0
+1983,"			more of what you have to say.
+",D,,0
+1984,"
+",E,,0
+1985,"					HARITATH
+",C,,0
+1986,"			There are many others that feel
+",D,,0
+1987,"			the same way but are uneasy about
+",D,,0
+1988,"			confronting Gosheven.
+",D,,0
+1989,"
+",E,,0
+1990,"					ARD'RIAN
+",C,,0
+1991,"			Get them together. We'll meet
+",D,,0
+1992,"			at my house.
+",D,,0
+1993,"
+",E,,0
+1994,"	Haritath and Kentor nod agreement then slip away.
+",A,,0
+1995,"
+",E,,0
+1996,"STAR TREK: ""Ensigns of Command"" REV. 7/24/89 - ACT FOUR  39.",H,,0
+1997,"
+",E,,0
+1998,33A  CONTINUED: (2),S,,0
+1999,"
+",E,,0
+2000,"	Ard'rian leads Data toward her house. They EXIT.
+",A,,0
+2001,"
+",E,,0
+2002,34,S,,0
+2003,"thru	OMITTED
+",S,,0
+2004,35,S,,0
+2005,"
+",E,,0
+2006,36   EXT. SPACE - THE ENTERPRISE (OPTICAL),S,,0
+2007,"
+",E,,0
+2008,"	Traveling at warp speed.
+",A,,0
+2009,"
+",E,,0
+2010,37   INT. CAPTAIN'S READY ROOM (OPTICAL),S,,0
+2011,"
+",E,,0
+2012,"	Picard has brought Troi in for consultation.
+",A,,0
+2013,"
+",E,,0
+2014,"					TROI
+",C,,0
+2015,"			In our dealings with other
+",D,,0
+2016,"			non-humanoid races there has been
+",D,,0
+2017,"			some point of reference; not so
+",D,,0
+2018,"			with the Sheliak.
+",D,,0
+2019,"
+",E,,0
+2020,"					PICARD
+",C,,0
+2021,"			We must have something in common.
+",D,,0
+2022,"			We communicate.
+",D,,0
+2023,"
+",E,,0
+2024,"					TROI
+",C,,0
+2025,"			Barely. The Sheliak have learned
+",D,,0
+2026,"			several Federation languages, but
+",D,,0
+2027,"			theirs continues to elude us.
+",D,,0
+2028,"
+",E,,0
+2029,"STAR TREK: ""Ensions of Command"" - REV. 7/13/89 - ACT FOUR 40.",H,,0
+2030,"
+",E,,0
+2031,37   CONTINUED:,S,,0
+2032,"
+",E,,0
+2033,"					PICARD
+",C,,0
+2034,"				(have we tried?)
+",M,,0
+2035,"			Telepaths?
+",D,,0
+2036,"
+",E,,0
+2037,"					TROI
+",C,,0
+2038,"			Attempted and failed.
+",D,,0
+2039,"
+",E,,0
+2040,"					PICARD
+",C,,0
+2041,"			This is ludicrous!
+",D,,0
+2042,"
+",E,,0
+2043,"					TROI
+",C,,0
+2044,"			No, sir, the fact that any alien
+",D,,0
+2045,"			race communicates with another
+",D,,0
+2046,"			is quite remarkable.
+",D,,0
+2047,"
+",E,,0
+2048,"	She lifts Picard's tea cup from the desk.
+",A,,0
+2049,"
+",E,,0
+2050,"					TROI
+",C,,0
+2051,"				(continuing)
+",M,,0
+2052,"			We are stranded on a planet. No
+",D,,0
+2053,"			language in common, but I want
+",D,,0
+2054,"			to teach you mine.
+",D,,0
+2055,"
+",E,,0
+2056,"	Troi points to the cup.
+",A,,0
+2057,"
+",E,,0
+2058,"					TROI
+",C,,0
+2059,"				(continuing)
+",M,,0
+2060,"			S'smarith. What did I just say?
+",D,,0
+2061,"
+",E,,0
+2062,"					PICARD
+",C,,0
+2063,"			Cup? Glass?
+",D,,0
+2064,"
+",E,,0
+2065,"					TROI
+",C,,0
+2066,"			Are you sure? I might have meant
+",D,,0
+2067,"			liquid, clear, brown, hot. And
+",D,,0
+2068,"			we conceptualize the universe in
+",D,,0
+2069,"			relatively the same way.
+",D,,0
+2070,"
+",E,,0
+2071,"					PICARD
+",C,,0
+2072,"			Point taken.
+",D,,0
+2073,"
+",E,,0
+2074,"					TROI
+",C,,0
+2075,"			During your talks you must be
+",D,,0
+2076,"			extremely accurate. The treaty
+",D,,0
+2077,"is 500,000 words. The length was",D,,0
+2078,"			to accommodate the Sheliak. They
+",D,,0
+2079,"			consider our language irrational,
+",D,,0
+2080,"			and demanded this level of
+",D,,0
+2081,"			complexity to avoid any future
+",D,,0
+2082,"			misunderstandings.
+",D,,0
+2083,"
+",E,,0
+2084,"STAR TREK: ""Ensigns of Command"" - REV. 7/17/89 - ACT FOUR 41.",H,,0
+2085,"
+",E,,0
+2086,37   CONTINUED: (2),S,,0
+2087,"
+",E,,0
+2088,"					RIKER'S COM VOICE
+",C,,0
+2089,"			Captain, we have the vessel
+",D,,0
+2090,"			carrying the Sheliak colonists
+",D,,0
+2091,"			on visual.
+",D,,0
+2092,"
+",E,,0
+2093,"					PICARD
+",C,,0
+2094,"			On my way.
+",D,,0
+2095,"				(to Troi)
+",M,,0
+2096,"			So it begins.
+",D,,0
+2097,"
+",E,,0
+2098,"	They EXIT onto:
+",A,,0
+2099,"
+",E,,0
+2100,38   INT. MAIN BRIDGE,S,,0
+2101,"
+",E,,0
+2102,"	The tension on the bridge is palpable. Picard moves
+",A,,0
+2103,"	swiftly to the command station. Riker relinquishes
+",A,,0
+2104,"	command.
+",A,,0
+2105,"
+",E,,0
+2106,39   ANGLE ON VIEWSCREEN (OPTICAL),S,,0
+2107,"
+",E,,0
+2108,"	Where a Sheliak ship hangs ominously.
+",A,,0
+2109,"
+",E,,0
+2110,"					PICARD
+",C,,0
+2111,"			Open hailing frequencies. This
+",D,,0
+2112,"			is Captain Jean-Luc Picard of the
+",D,,0
+2113,"			Starship Enterprise.
+",D,,0
+2114,"
+",E,,0
+2115,"	We again have a vision of the mirrored, shadowed,
+",A,,0
+2116,"	shifting place. A hint of a watcher in the shadows.
+",A,,0
+2117,"
+",E,,0
+2118,"					SHELIAK
+",C,,0
+2119,"			Your purpose, Enterprise?
+",D,,0
+2120,"
+",E,,0
+2121,"					PICARD
+",C,,0
+2122,"			We desire face-to-face negotiation
+",D,,0
+2123,"			to settle the crisis on Tau Cygna
+",D,,0
+2124,"			Five.
+",D,,0
+2125,"
+",E,,0
+2126,"	Troi hands him a PADD.
+",A,,0
+2127,"
+",E,,0
+2128,"					PICARD
+",C,,0
+2129,"				(continuing)
+",M,,0
+2130,"			We are entitled to consultation
+",D,,0
+2131,"			under paragraph five hundred and
+",D,,0
+2132,"			sixty-three subparagraph nine.
+",D,,0
+2133,"
+",E,,0
+2134,"	A beat as the Sheliak look it up.
+",A,,0
+2135,"
+",E,,0
+2136,"					SHELIAK
+",C,,0
+2137,"			Granted.
+",D,,0
+2138,"
+",E,,0
+2139,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT FOUR  42.",H,,0
+2140,"
+",E,,0
+2141,39   CONTINUED:,S,,0
+2142,"
+",E,,0
+2143,"	The screen again shows the Sheliak vessel.
+",A,,0
+2144,"
+",E,,0
+2145,"					RIKER
+",C,,0
+2146,"			Was that an invitation?
+",D,,0
+2147,"
+",E,,0
+2148,"					PICARD
+",C,,0
+2149,"			I'm going to take it as such.
+",D,,0
+2150,"			Number One, you have the bridge.
+",D,,0
+2151,"
+",E,,0
+2152,"	Troi and Picard EXIT. HOLD on Riker.
+",A,,0
+2153,"
+",E,,0
+2154,"					RIKER
+",C,,0
+2155,"			Helm, maintain relative position.
+",D,,0
+2156,"			Mister Worf, have Transporter Room
+",D,,0
+2157,"			Two stand by.
+",D,,0
+2158,"
+",E,,0
+2159,"					WORF
+",C,,0
+2160,"			Aye, sir.
+",D,,0
+2161,"
+",E,,0
+2162,"									CUT TO:
+",O,,0
+2163,"
+",E,,0
+2164,40   INT. ARD'RIAN'S LIVING ROOM - DAY,S,,0
+2165,"
+",E,,0
+2166,"	Haritath, Kentor, and a group of other colonists are
+",A,,0
+2167,"	gathered around Data and Ard'rian.
+",A,,0
+2168,"
+",E,,0
+2169,"					KENTOR
+",C,,0
+2170,"			... and once the Federation
+",D,,0
+2171,"			resettles us, we'll be left
+",D,,0
+2172,"			alone?
+",D,,0
+2173,"
+",E,,0
+2174,"					DATA
+",C,,0
+2175,"			If you so desire.
+",D,,0
+2176,"
+",E,,0
+2177,"					HARITATH
+",C,,0
+2178,"			We do. We like doing things on
+",D,,0
+2179,"			our own.
+",D,,0
+2180,"
+",E,,0
+2181,"					DATA
+",C,,0
+2182,"			The Federation will offer as
+",D,,0
+2183,"			little or as much help as you
+",D,,0
+2184,"			dictate.
+",D,,0
+2185,"
+",E,,0
+2186,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT FOUR  42A.",H,,0
+2187,"
+",E,,0
+2188,40   CONTINUED:,S,,0
+2189,"
+",E,,0
+2190,"	Nods all around; they are impressed. Data is the
+",A,,0
+2191,"	perfect no-pressure salesman; he simply presents the
+",A,,0
+2192,"	facts. Ard'rian looks expectantly to Kentor;
+",A,,0
+2193,"	Kentor's still uncertain.
+",A,,0
+2194,"
+",E,,0
+2195,"					ARD'RIAN
+",C,,0
+2196,"			Kentor -- are you with us?
+",D,,0
+2197,"
+",E,,0
+2198,"	Kentor makes up his mind:
+",A,,0
+2199,"
+",E,,0
+2200,"					KENTOR
+",C,,0
+2201,"			Yes.
+",D,,0
+2202,"				(a beat)
+",M,,0
+2203,"			The question is, how do we
+",D,,0
+2204,"			convince Gosheven?
+",D,,0
+2205,"
+",E,,0
+2206,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT FOUR      43.",H,,0
+2207,"
+",E,,0
+2208,40   CONTINUED: (2),S,,0
+2209,"
+",E,,0
+2210,"					HARITATH
+",C,,0
+2211,"			Why do we need to?
+",D,,0
+2212,"
+",E,,0
+2213,"					KENTOR
+",C,,0
+2214,"			Because he's respected. Most
+",D,,0
+2215,"			people will do as he says.
+",D,,0
+2216,"
+",E,,0
+2217,"					ARD'RIAN
+",C,,0
+2218,"			The people respect you, too.
+",D,,0
+2219,"			If you take a stand, they'll
+",D,,0
+2220,"			fall in line.
+",D,,0
+2221,"
+",E,,0
+2222,"					KENTOR
+",C,,0
+2223,"			I don't know. Gosheven's got a
+",D,,0
+2224,"			lot of supporters...
+",D,,0
+2225,"
+",E,,0
+2226,"					GOSHEVEN (O.S.)
+",C,,0
+2227,"			Don't forget that, Kentor.
+",D,,0
+2228,"
+",E,,0
+2229,"	Everyone turns to see --
+",A,,0
+2230,"
+",E,,0
+2231,40A  OMITTED,S,,0
+2232,"
+",E,,0
+2233,40B  NEW ANGLE (OPTICAL),S,,0
+2234,"
+",E,,0
+2235,"	Gosheven fills the doorway. He ENTERS and looks
+",A,,0
+2236,"	around the room.
+",A,,0
+2237,"
+",E,,0
+2238,"					GOSHEVEN
+",C,,0
+2239,"			I'm disappointed. I thought we
+",D,,0
+2240,"			had settled this.
+",D,,0
+2241,"
+",E,,0
+2242,"					DATA
+",C,,0
+2243,"			Apparently, that is not correct.
+",D,,0
+2244,"
+",E,,0
+2245,"	Gosheven steps up to Data.
+",A,,0
+2246,"
+",E,,0
+2247,"					GOSHEVEN
+",C,,0
+2248,"				(to Data)
+",M,,0
+2249,"			Still stirring up trouble?
+",D,,0
+2250,"
+",E,,0
+2251,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT FOUR      44.",H,,0
+2252,"
+",E,,0
+2253,40B  CONTINUED:,S,,0
+2254,"
+",E,,0
+2255,"					ARD'RIAN
+",C,,0
+2256,"			Since when is talk trouble?
+",D,,0
+2257,"
+",E,,0
+2258,"	Gosheven ignores her -- looking only at Data.
+",A,,0
+2259,"
+",E,,0
+2260,"					GOSHEVEN
+",C,,0
+2261,"			It's over. Don't you get it?
+",D,,0
+2262,"			You had your say, and you lost.
+",D,,0
+2263,"
+",E,,0
+2264,"					DATA
+",C,,0
+2265,"			I appear to be reversing that
+",D,,0
+2266,"			defeat.
+",D,,0
+2267,"
+",E,,0
+2268,"					GOSHEVEN
+",C,,0
+2269,"			No, you're not -- you're just
+",D,,0
+2270,"			stubborn.
+",D,,0
+2271,"				(getting closer)
+",M,,0
+2272,"			Well, let me tell you something...
+",D,,0
+2273,"
+",E,,0
+2274,"	Gosheven touches Data with an electronic prod -- BLUE
+",A,,0
+2275,"	SPARKS dance over Data. Data's whole body stiffens
+",A,,0
+2276,"	-- then goes limp and falls.
+",A,,0
+2277,"
+",E,,0
+2278,"					GOSHEVEN
+",C,,0
+2279,"				(completes his thought)
+",M,,0
+2280,"			... so am I.
+",D,,0
+2281,"
+",E,,0
+2282,"					ARD'RIAN
+",C,,0
+2283,"			Damn you, Gosheven --
+",D,,0
+2284,"
+",E,,0
+2285,"	Ard'rian rushes to Data's aid.
+",A,,0
+2286,"
+",E,,0
+2287,"					HARITATH
+",C,,0
+2288,"			You killed him?
+",D,,0
+2289,"
+",E,,0
+2290,"					GOSHEVEN
+",C,,0
+2291,"			I've killed no one.
+",D,,0
+2292,"				(to Ard'rian)
+",M,,0
+2293,"			I've merely shut down a machine.
+",D,,0
+2294,"
+",E,,0
+2295,"	Ard'rian looks daggers at Gosheven, who turns his
+",A,,0
+2296,"	attention to the gathering.
+",A,,0
+2297,"
+",E,,0
+2298,"					GOSHEVEN (cont'd)
+",C,,0
+2299,"			That's it, everyone. Time to
+",D,,0
+2300,"			go home.
+",D,,0
+2301,"
+",E,,0
+2302,"	The momentum has changed. A few sheepish glances as
+",A,,0
+2303,"	one or two of the group head for the door.
+",A,,0
+2304,"
+",E,,0
+2305,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT FOUR      45.",H,,0
+2306,"
+",E,,0
+2307,40C  ON ARD'RIAN,S,,0
+2308,"
+",E,,0
+2309,"	She's pulled out an electronic scanner from her piles
+",A,,0
+2310,"	of computer junk and is checking out the fallen Data.
+",A,,0
+2311,"
+",E,,0
+2312,40D  WIDER,S,,0
+2313,"
+",E,,0
+2314,"	to include Gosheven.
+",A,,0
+2315,"
+",E,,0
+2316,"					GOSHEVEN
+",C,,0
+2317,"				(to Ard'rian)
+",M,,0
+2318,"			You'll see I'm right.
+",D,,0
+2319,"
+",E,,0
+2320,"	He EXITS. We hold on Ard'rian and Data.
+",A,,0
+2321,"
+",E,,0
+2322,"									CUT TO:
+",O,,0
+2323,"
+",E,,0
+2324,41   INT. SHELIAK SHIP (OPTICAL),S,,0
+2325,"
+",E,,0
+2326,"	Picard and Troi MATERIALIZE. What surrounds them bears
+",A,,0
+2327,"	little resemblance to a ship. Darkness hangs like bats
+",A,,0
+2328,"	in the corners. What little light there is filters
+",A,,0
+2329,"	through swirling mist. As they look down the effect is
+",A,,0
+2330,"	as if they are walking on black ice, and tiny lights,
+",A,,0
+2331,"	like flickering eyes twinkle beneath the floor's
+",A,,0
+2332,"	surface.
+",A,,0
+2333,"
+",E,,0
+2334,"					SHELIAK
+",C,,0
+2335,"			Advance and speak.
+",D,,0
+2336,"
+",E,,0
+2337,"	Troi and Picard exchange glances for they can see no
+",A,,0
+2338,"	sign of the creature they are speaking with. They step
+",A,,0
+2339,"	forward, and are pinned in a bright light.
+",A,,0
+2340,"
+",E,,0
+2341,"					PICARD
+",C,,0
+2342,"			Director, we will comply with your
+",D,,0
+2343,"			request to remove the colony on
+",D,,0
+2344,"			Tau Cygna Five, but we need time.
+",D,,0
+2345,"
+",E,,0
+2346,"					SHELIAK
+",C,,0
+2347,"			The given time has elapsed. We
+",D,,0
+2348,"			carry the membership and we will
+",D,,0
+2349,"			proceed with their debarkation.
+",D,,0
+2350,"
+",E,,0
+2351,"					TROI
+",C,,0
+2352,"			The temporary presence of these
+",D,,0
+2353,"			humans should not interfere
+",D,,0
+2354,"			with your plans.
+",D,,0
+2355,"
+",E,,0
+2356,"STAR TREK: ""Ensigns of Command"" REV. 7/19/89 - ACT FOUR      46.",H,,0
+2357,"
+",E,,0
+2358,41   CONTINUED:,S,,0
+2359,"
+",E,,0
+2360,"					SHELIAK
+",C,,0
+2361,"			Unacceptable. You must remove
+",D,,0
+2362,"			the creatures.
+",D,,0
+2363,"
+",E,,0
+2364,"					PICARD
+",C,,0
+2365,"			I'm trying! But the needed ship
+",D,,0
+2366,"			won't be available for three
+",D,,0
+2367,"			weeks.
+",D,,0
+2368,"
+",E,,0
+2369,"					SHELIAK
+",C,,0
+2370,"			Then you are in violation.
+",D,,0
+2371,"
+",E,,0
+2372,"					PICARD
+",C,,0
+2373,"			I have admitted that! I'm only
+",D,,0
+2374,"			asking for a little tolerance.
+",D,,0
+2375,"
+",E,,0
+2376,"					SHELIAK
+",C,,0
+2377,"			Section five hundred and one,
+",D,,0
+2378,"			paragraph seven hundred and
+",D,,0
+2379,"			sixteen, subparagraph five --
+",D,,0
+2380,"			unwanted lifeforms inhabiting H
+",D,,0
+2381,"			class worlds may be removed at
+",D,,0
+2382,"			the discretion of the Sheliak
+",D,,0
+2383,"			corporate.
+",D,,0
+2384,"
+",E,,0
+2385,"					PICARD
+",C,,0
+2386,"			We will remove them. But you
+",D,,0
+2387,"			must grant us the time we require.
+",D,,0
+2388,"
+",E,,0
+2389,"					SHELIAK
+",C,,0
+2390,"			You need time, Picard of the
+",D,,0
+2391,"			Enterprise, we will save you time.
+",D,,0
+2392,"			We will eradicate the human
+",D,,0
+2393,"			infestation.
+",D,,0
+2394,"
+",E,,0
+2395,"					PICARD
+",C,,0
+2396,"				(outraged)
+",M,,0
+2397,"			They are not vermin! They are
+",D,,0
+2398,"			citizens of the Federation and
+",D,,0
+2399,"			I will not permit this travesty!
+",D,,0
+2400,"
+",E,,0
+2401,"STAR TREK: ""Ensigns of Command"" REV. 7/13/89 - ACT FOUR      47.",H,,0
+2402,"
+",E,,0
+2403,41   CONTINUED: (2),S,,0
+2404,"
+",E,,0
+2405,"					SHELIAK
+",C,,0
+2406,"			Intelligent converse is
+",D,,0
+2407,"			impossible. You do not discuss,
+",D,,0
+2408,"			you gibber.
+",D,,0
+2409,"
+",E,,0
+2410,"					PICARD
+",C,,0
+2411,"			Between intelligent species of
+",D,,0
+2412,"			good will --
+",D,,0
+2413,"
+",E,,0
+2414,"	Suddenly the Sheliak transporter kicks in, and slams
+",A,,0
+2415,"	Picard and Troi back to the Enterprise. They have been
+",A,,0
+2416,"	rudely thrown out on their ears.
+",A,,0
+2417,"
+",E,,0
+2418,42   INT. MAIN BRIDGE (OPTICAL),S,,0
+2419,"
+",E,,0
+2420,"	The startling EFFECT of the Sheliak transporter and
+",A,,0
+2421,"	Picard and Troi APPEAR. Riker, Worf, and the
+",A,,0
+2422,"	supernumeraries at Conn and Ops react.
+",A,,0
+2423,"
+",E,,0
+2424,"	Picard and Troi are both very disoriented, staggering
+",A,,0
+2425,"	slightly. Riker steadies them both.
+",A,,0
+2426,"
+",E,,0
+2427,"					RIKER
+",C,,0
+2428,"			I take it the Sheliak just hung
+",D,,0
+2429,"			up on us. Again.
+",D,,0
+2430,"
+",E,,0
+2431,"									FADE OUT.
+",O,,0
+2432,"
+",E,,0
+2433,"                        END OF ACT FOUR                         
+",N,act,0
+2434,"
+",E,,0
+2435,"STAR TREK: ""Ensigns of Command"" REV. 7/19/89 - ACT FIVE      48.",H,,0
+2436,"
+",E,,0
+2437,"                           ACT FIVE                             
+",N,act,0
+2438,"
+",E,,0
+2439,"	FADE IN:
+",A,,0
+2440,"
+",E,,0
+2441,42A  INT. ARD'RIAN'S LIVING ROOM,S,,0
+2442,"
+",E,,0
+2443,"	Ard'rian worriedly inspects the unmoving Data with an
+",A,,0
+2444,"	electronic scanner. Data twitches, ""reboots,"" comes
+",A,,0
+2445,"	back to life, and sits up. Ard'rian SIGHS, relieved.
+",A,,0
+2446,"
+",E,,0
+2447,"					ARD'RIAN
+",C,,0
+2448,"			I was afraid your neural pathways
+",D,,0
+2449,"			were scrambled beyond repair.
+",D,,0
+2450,"
+",E,,0
+2451,"					DATA
+",C,,0
+2452,"			I am equipped with diagnostic
+",D,,0
+2453,"			circuits and can correct many
+",D,,0
+2454,"			malfunctions.
+",D,,0
+2455,"
+",E,,0
+2456,"	Data moves his head, arms, and legs, testing his
+",A,,0
+2457,"	responses.
+",A,,0
+2458,"
+",E,,0
+2459,"					ARD'RIAN
+",C,,0
+2460,"			I'm not surprised at Gosheven's
+",D,,0
+2461,"			behavior. But Kentor and the
+",D,,0
+2462,"			others... they said they were
+",D,,0
+2463,"			on our side.
+",D,,0
+2464,"				(bitter)
+",M,,0
+2465,"			I guess words don't mean very
+",D,,0
+2466,"			much.
+",D,,0
+2467,"
+",E,,0
+2468,"	Data mulls this over carefully.
+",A,,0
+2469,"
+",E,,0
+2470,"					DATA
+",C,,0
+2471,"			Perhaps that has been part of our
+",D,,0
+2472,"			difficulty. Words are all we have
+",D,,0
+2473,"			been using.
+",D,,0
+2474,"				(thinking)
+",M,,0
+2475,"			Humans seem to take much stronger
+",D,,0
+2476,"			notice of actions.
+",D,,0
+2477,"
+",E,,0
+2478,"	Data makes a decision, gets to his feet.
+",A,,0
+2479,"
+",E,,0
+2480,"					DATA (cont'd)
+",C,,0
+2481,"			I require a phaser.
+",D,,0
+2482,"
+",E,,0
+2483,"					ARD'RIAN
+",C,,0
+2484,"			What's a phaser?
+",D,,0
+2485,"
+",E,,0
+2486,"					DATA
+",C,,0
+2487,"			A type of weapon. Unfortunately
+",D,,0
+2488,"			it will not function in the
+",D,,0
+2489,"			presence of hyperonic radiation.
+",D,,0
+2490,"
+",E,,0
+2491,"STAR TREK: ""Ensigns of Command"" REV. 7/24/89 - ACT FIVE      49.",H,,0
+2492,"
+",E,,0
+2493,42A  CONTINUED:,S,,0
+2494,"
+",E,,0
+2495,"	Data ponders this new problem for a beat, then shrugs
+",A,,0
+2496,"	it off:
+",A,,0
+2497,"
+",E,,0
+2498,"					DATA (cont'd)
+",C,,0
+2499,"			I will have to be innovative.
+",D,,0
+2500,"
+",E,,0
+2501,"									CUT TO:
+",O,,0
+2502,"
+",E,,0
+2503,42B  INT. SHUTTLECRAFT - CYGNA FIVE - DAY,S,,0
+2504,"
+",E,,0
+2505,"	Data has opened up a phaser and is adapting it. His
+",A,,0
+2506,"	forearm is opened, revealing his arm's inner workings;
+",A,,0
+2507,"	Data is ""cannibalizing"" his arm for parts to modify the
+",A,,0
+2508,"	phaser. Ard'rian looks on in fascination.
+",A,,0
+2509,"
+",E,,0
+2510,"					DATA
+",C,,0
+2511,"			Hyperonic radiation randomizes
+",D,,0
+2512,"			phaser beams. But I believe I
+",D,,0
+2513,"			can improvise a servocircuit which
+",D,,0
+2514,"			will compensate by continuously
+",D,,0
+2515,"			recollimating the output.
+",D,,0
+2516,"
+",E,,0
+2517,"					ARD'RIAN
+",C,,0
+2518,"			You're using your own neural
+",D,,0
+2519,"			subprocessors to build a smarter
+",D,,0
+2520,"			phaser.
+",D,,0
+2521,"
+",E,,0
+2522,"					DATA
+",C,,0
+2523,"			Essentially correct.
+",D,,0
+2524,"
+",E,,0
+2525,"	Ard'rian's impressed. Data completes his work.
+",A,,0
+2526,"
+",E,,0
+2527,"					DATA (cont'd)
+",C,,0
+2528,"			Get word to Gosheven. Tell him
+",D,,0
+2529,"			I am coming to the pumping
+",D,,0
+2530,"			station. Tell him I am going
+",D,,0
+2531,"			to destroy the aqueduct.
+",D,,0
+2532,"
+",E,,0
+2533,"	Ard'rian is gaping like a carp over this, doesn't know
+",A,,0
+2534,"	what to say. Finally manages:
+",A,,0
+2535,"
+",E,,0
+2536,"					ARD'RIAN
+",C,,0
+2537,"			He'll try to stop you --
+",D,,0
+2538,"
+",E,,0
+2539,"					DATA
+",C,,0
+2540,"			I sincerely hope so.
+",D,,0
+2541,"
+",E,,0
+2542,"	Off Ard'rian's expression:
+",A,,0
+2543,"
+",E,,0
+2544,"									CUT TO:
+",O,,0
+2545,"
+",E,,0
+2546,"STAR TREK: ""Ensigns of Command"" - REV. 7/19/89 - ACT FIVE    49A.",H,,0
+2547,"
+",E,,0
+2548,43   EXT. SPACE - THE ENTERPRISE (OPTICAL),S,,0
+2549,"
+",E,,0
+2550,"	The Enterprise hanging motionless in space with the
+",A,,0
+2551,"	Sheliak ship.
+",A,,0
+2552,"
+",E,,0
+2553,44   INT. MAIN BRIDGE,S,,0
+2554,"
+",E,,0
+2555,"	As before.
+",A,,0
+2556,"
+",E,,0
+2557,"					PICARD
+",C,,0
+2558,"				(to Worf)
+",M,,0
+2559,"			Go to Yellow Alert. Shields up.
+",D,,0
+2560,"
+",E,,0
+2561,"					WORF
+",C,,0
+2562,"			Aye, sir.
+",D,,0
+2563,"
+",E,,0
+2564,"					PICARD
+",C,,0
+2565,"			Mister Riker, put us nose to nose
+",D,,0
+2566,"			with the Sheliak ship. If she
+",D,,0
+2567,"			makes a move, match it.
+",D,,0
+2568,"
+",E,,0
+2569,"					RIKER
+",C,,0
+2570,"			Aye, sir.
+",D,,0
+2571,"
+",E,,0
+2572,"					PICARD
+",C,,0
+2573,"			Open a hailing frequency.
+",D,,0
+2574,"
+",E,,0
+2575,"STAR TREK: ""Ensigns of Command"" REV. 7/17/89 - ACT FIVE      50.",H,,0
+2576,"
+",E,,0
+2577,44   CONTINUED:,S,,0
+2578,"
+",E,,0
+2579,"					WORF
+",C,,0
+2580,"			They're not responding, sir.
+",D,,0
+2581,"
+",E,,0
+2582,"					PICARD
+",C,,0
+2583,"				(tight control)
+",M,,0
+2584,"			They don't have to answer. They
+",D,,0
+2585,"			just have to listen! Sheliak
+",D,,0
+2586,"			vessel, you will have to go
+",D,,0
+2587,"			through me to get at the colony
+",D,,0
+2588,"			on Tau Cygna Five!
+",D,,0
+2589,"
+",E,,0
+2590,45,S,,0
+2591,"thru	OMITTED
+",S,,0
+2592,46,S,,0
+2593,"
+",E,,0
+2594,47   INT. MAIN BRIDGE - CONTINUOUS,S,,0
+2595,"
+",E,,0
+2596,"					WORF
+",C,,0
+2597,"			No response.
+",D,,0
+2598,"
+",E,,0
+2599,"					PICARD
+",C,,0
+2600,"			Close channel -- and get me that
+",D,,0
+2601,"			treaty! They've been beating us
+",D,,0
+2602,"			over the head with it for three
+",D,,0
+2603,"			days. Let's see if we can't find
+",D,,0
+2604,"			something in it that can be
+",D,,0
+2605,"			turned to our advantage.
+",D,,0
+2606,"
+",E,,0
+2607,"					RIKER
+",C,,0
+2608,"			We're going to try to beat them
+",D,,0
+2609,"			at their own game?
+",D,,0
+2610,"
+",E,,0
+2611,"					WORF
+",C,,0
+2612,"			The treaty is how long?
+",D,,0
+2613,"
+",E,,0
+2614,"					TROI
+",C,,0
+2615,"			Five hundred thousand words.
+",D,,0
+2616,"
+",E,,0
+2617,"					WORF
+",C,,0
+2618,"				(glumly)
+",M,,0
+2619,"			We are going to regret Data's
+",D,,0
+2620,"			absence.
+",D,,0
+2621,"
+",E,,0
+2622,"									CUT TO:
+",O,,0
+2623,"
+",E,,0
+2624,48   EXT. PLANET SURFACE - MAIN STREET - DAY (OPTICAL),H,,0
+2625,"
+",E,,0
+2626,"	The square. FOUR MEN armed with rifles stand
+",A,,0
+2627,"	shoulder to shoulder in front of the plant and
+",A,,0
+2628,"	aqueduct. Standing defiant and unarmed, save for the
+",A,,0
+2629,"	probe at his belt, on an upper level is Gosheven.
+",A,,0
+2630,"
+",E,,0
+2631,"STAR TREK: ""Ensigns of Command"" REV. 7/20/89 - ACT FIVE      51.",H,,0
+2632,"
+",E,,0
+2633,48   CONTINUED:,S,,0
+2634,"
+",E,,0
+2635,"	Off to one side are a number of colonists (including
+",A,,0
+2636,"	Ard'rian, Haritath, and Kentor), nervously awaiting
+",A,,0
+2637,"	the outcome.
+",A,,0
+2638,"
+",E,,0
+2639,"	Then a PHASER STUN hits one of the armed men; he
+",A,,0
+2640,"	drops. As the others whirl to take aim --
+",A,,0
+2641,"
+",E,,0
+2642,48A  NEW ANGLE (OPTICAL),S,,0
+2643,"
+",E,,0
+2644,"	A PHASER BEAM sweeps across the line of armed men,
+",A,,0
+2645,"	STUNNING them instantly. No one even gets a shot off.
+",A,,0
+2646,"
+",E,,0
+2647,"	Gosheven, astonished, reaches for the probe at his
+",A,,0
+2648,"	belt. Data calmly stands up from his hiding place,
+",A,,0
+2649,"	aims his phaser. Gosheven freezes -- it's futile;
+",A,,0
+2650,"	obviously Data could stun him before he could get
+",A,,0
+2651,"	anywhere near Data.
+",A,,0
+2652,"
+",E,,0
+2653,48B  WIDER (OPTICAL),S,,0
+2654,"
+",E,,0
+2655,"	as Data steps out into the street, holds his phaser
+",A,,0
+2656,"	up for all to see.
+",A,,0
+2657,"
+",E,,0
+2658,"					DATA
+",C,,0
+2659,"			That was the ""stun"" setting.
+",D,,0
+2660,"
+",E,,0
+2661,"	Data switches the setting on the phaser --
+",A,,0
+2662,"
+",E,,0
+2663,"					DATA (cont'd)
+",C,,0
+2664,"			This is not.
+",D,,0
+2665,"
+",E,,0
+2666,"	Data turns, BLASTS the control panel on the aqueduct.
+",A,,0
+2667,"	A shower of SPARKS. EFFECT as the reaction races up
+",A,,0
+2668,"	the aqueduct. The water stops flowing. Gosheven is
+",A,,0
+2669,"	speechless. Data addresses the colonists:
+",A,,0
+2670,"
+",E,,0
+2671,"					DATA (cont'd)
+",C,,0
+2672,"			I could reduce this pumping
+",D,,0
+2673,"			station to a pile of debris...
+",D,,0
+2674,"			but I trust my point is clear.
+",D,,0
+2675,"			I am one android with a single
+",D,,0
+2676,"			weapon. There are hundreds of
+",D,,0
+2677,"			Sheliak on the way... and their
+",D,,0
+2678,"			weapons are far more powerful.
+",D,,0
+2679,"
+",E,,0
+2680,"	Data pauses. The colonists are dead silent.
+",A,,0
+2681,"
+",E,,0
+2682,"STAR TREK: ""Ensigns of Command"" REV. 7/24/89 - ACT FIVE      52.",H,,0
+2683,"
+",E,,0
+2684,48B  CONTINUED:,S,,0
+2685,"
+",E,,0
+2686,"					DATA (cont'd)
+",C,,0
+2687,"			And the Sheliak may not even offer
+",D,,0
+2688,"			you a target. They can obliterate
+",D,,0
+2689,"			this colony from orbit. You will
+",D,,0
+2690,"			die never having seen the faces
+",D,,0
+2691,"			of your killers.
+",D,,0
+2692,"
+",E,,0
+2693,"	Data walks deliberately to one of the stunned
+",A,,0
+2694,"	defenders, picks up the rifle with his free hand, holds
+",A,,0
+2695,"	it out to the group of colonists.
+",A,,0
+2696,"
+",E,,0
+2697,"					DATA (cont'd)
+",C,,0
+2698,"			The choice is yours.
+",D,,0
+2699,"
+",E,,0
+2700,"	The colonists look at one another. Finally:
+",A,,0
+2701,"
+",E,,0
+2702,"					KENTOR
+",C,,0
+2703,"			There are other places -- other
+",D,,0
+2704,"			challenges. It's time to move
+",D,,0
+2705,"			on.
+",D,,0
+2706,"
+",E,,0
+2707,"	And Kentor EXITS. One by one, the colonists follow
+",A,,0
+2708,"	him. The mantle of leadership has passed.
+",A,,0
+2709,"
+",E,,0
+2710,48C  NEW ANGLE,S,,0
+2711,"
+",E,,0
+2712,"	Gosheven, slump shouldered, bends and scoops up a
+",A,,0
+2713,"	handful of dirt at the base of the silent pool. Data
+",A,,0
+2714,"	moves to join him.
+",A,,0
+2715,"
+",E,,0
+2716,"					GOSHEVEN
+",C,,0
+2717,"			I really was willing to stay and
+",D,,0
+2718,"			die for this.
+",D,,0
+2719,"
+",E,,0
+2720,"					DATA
+",C,,0
+2721,"			I know that, but it is just a
+",D,,0
+2722,"			thing, and things can be replaced.
+",D,,0
+2723,"			Lives cannot. Live, rebuild and
+",D,,0
+2724,"			be remembered.
+",D,,0
+2725,"
+",E,,0
+2726,"	A long beat. Then Gosheven wipes his hand on his
+",A,,0
+2727,"	pants, and walks back to join his people.
+",A,,0
+2728,"
+",E,,0
+2729,49   OMITTED,S,,0
+2730,"
+",E,,0
+2731,"STAR TREK: ""Ensigns of Command"" REV. 7/13/89 - ACT FIVE      53.",H,,0
+2732,"
+",E,,0
+2733,50   ANGLE ON DATA,S,,0
+2734,"
+",E,,0
+2735,"	watching Gosheven go. Data looks down at the phaser
+",A,,0
+2736,"	for several moments, then holsters it. He looks up to
+",A,,0
+2737,"	find Ard'rian gazing at him with an expression of pride
+",A,,0
+2738,"	and love.
+",A,,0
+2739,"
+",E,,0
+2740,51   OMITTED,S,,0
+2741,"
+",E,,0
+2742,52   INT. MAIN BRIDGE (OPTICAL),S,,0
+2743,"
+",E,,0
+2744,"	Troi is seated at Science One with Picard hanging over
+",A,,0
+2745,"	her shoulder. Riker and Worf are at Science Two.
+",A,,0
+2746,"	Pages of treaty crawl past on both screens.
+",A,,0
+2747,"
+",E,,0
+2748,"					WORF
+",C,,0
+2749,"			This is hopeless. Fighting would
+",D,,0
+2750,"			be preferable.
+",D,,0
+2751,"
+",E,,0
+2752,"	A look from Riker.
+",A,,0
+2753,"
+",E,,0
+2754,"					PICARD
+",C,,0
+2755,"			That's it.
+",D,,0
+2756,"
+",E,,0
+2757,"	He indicates a clause.
+",A,,0
+2758,"
+",E,,0
+2759,"					TROI
+",C,,0
+2760,"			I don't follow you, sir.
+",D,,0
+2761,"
+",E,,0
+2762,"					PICARD
+",C,,0
+2763,"			Worf, get me the Sheliak.
+",D,,0
+2764,"
+",E,,0
+2765,"					WORF
+",C,,0
+2766,"				(just heard the
+",M,,0
+2767,"				 reprieve)
+",M,,0
+2768,"			Yes, sir!
+",D,,0
+2769,"
+",E,,0
+2770,"	Picard, Riker and Troi return to the command station.
+",A,,0
+2771,"	The strange Sheliak scene replaces a view of the ship.
+",A,,0
+2772,"
+",E,,0
+2773,"					PICARD
+",C,,0
+2774,"			Pursuant to paragraph one thousand
+",D,,0
+2775,"			two hundred and ninety I formally
+",D,,0
+2776,"			request third party arbitration
+",D,,0
+2777,"			of our dispute.
+",D,,0
+2778,"
+",E,,0
+2779,"	A beat while they look it up.
+",A,,0
+2780,"
+",E,,0
+2781,"					SHELIAK
+",C,,0
+2782,"			Agreed.
+",D,,0
+2783,"
+",E,,0
+2784,"STAR TREK: ""Ensigns of Command"" REV. 7/13/89 - ACT FIVE      54.",H,,0
+2785,"
+",E,,0
+2786,52   CONTINUED:,S,,0
+2787,"
+",E,,0
+2788,"					PICARD
+",C,,0
+2789,"			And further, pursuant to
+",D,,0
+2790,"			subsection D, three, I name the
+",D,,0
+2791,"			Grizzelas to arbitrate.
+",D,,0
+2792,"
+",E,,0
+2793,"					SHELIAK
+",C,,0
+2794,"			Grizzelas?
+",D,,0
+2795,"
+",E,,0
+2796,"	Riker glances, puzzled, at Troi.
+",A,,0
+2797,"
+",E,,0
+2798,"					RIKER
+",C,,0
+2799,"				(mouths)
+",M,,0
+2800,"			Grizzelas?
+",D,,0
+2801,"
+",E,,0
+2802,"	Troi quells him with a look.
+",A,,0
+2803,"
+",E,,0
+2804,"					PICARD
+",C,,0
+2805,"			Unfortunately they are currently
+",D,,0
+2806,"			in their hibernation cycle, but
+",D,,0
+2807,"			they'll awaken in six months, and
+",D,,0
+2808,"			then we'll get this matter
+",D,,0
+2809,"			settled. Now, do you want to
+",D,,0
+2810,"			wait... or give me my three weeks?
+",D,,0
+2811,"
+",E,,0
+2812,"					SHELIAK
+",C,,0
+2813,"			Absurd. We carry the membership!
+",D,,0
+2814,"			We can brook no delay!
+",D,,0
+2815,"
+",E,,0
+2816,"					PICARD
+",C,,0
+2817,"			Then I declare the treaty in
+",D,,0
+2818,"			abeyance!
+",D,,0
+2819,"
+",E,,0
+2820,"					SHELIAK
+",C,,0
+2821,"			Wait! Negotiation is --
+",D,,0
+2822,"
+",E,,0
+2823,"	Picard gestures to Worf -- cut the transmission. Worf
+",A,,0
+2824,"	obeys. A long beat.
+",A,,0
+2825,"
+",E,,0
+2826,"					RIKER
+",C,,0
+2827,"				(smiling)
+",M,,0
+2828,"			You enjoyed that.
+",D,,0
+2829,"
+",E,,0
+2830,"					PICARD
+",C,,0
+2831,"			You're damn right.
+",D,,0
+2832,"
+",E,,0
+2833,"					WORF
+",C,,0
+2834,"			Captain, they are hailing us.
+",D,,0
+2835,"
+",E,,0
+2836,"	Picard studies his nails. Takes a turn around the
+",A,,0
+2837,"	bridge. Settles himself back in the command chair.
+",A,,0
+2838,"
+",E,,0
+2839,"STAR TREK: ""Ensigns of Command"" REV. 7/13/89 - ACT FIVE      55.",H,,0
+2840,"
+",E,,0
+2841,52   CONTINUED: (2),S,,0
+2842,"
+",E,,0
+2843,"					WORF
+",C,,0
+2844,"				(continuing)
+",M,,0
+2845,"			Sir?
+",D,,0
+2846,"
+",E,,0
+2847,"					PICARD
+",C,,0
+2848,"				(a beat)
+",M,,0
+2849,"			On screen.
+",D,,0
+2850,"
+",E,,0
+2851,"	The Sheliak reappear.
+",A,,0
+2852,"
+",E,,0
+2853,"					SHELIAK
+",C,,0
+2854,"			You may have your three weeks,
+",D,,0
+2855,"			Picard of the Enterprise.
+",D,,0
+2856,"
+",E,,0
+2857,"					PICARD
+",C,,0
+2858,"				(with careful
+",M,,0
+2859,"				 enunciation)
+",M,,0
+2860,"			Thank you.
+",D,,0
+2861,"
+",E,,0
+2862,"	The screen returns to a view of the Sheliak ship
+",A,,0
+2863,"	pulling away. Instant release of tension. Suddenly
+",A,,0
+2864,"	the turbolift doors open, and Geordi ENTERS. He is
+",A,,0
+2865,"	looking frazzled. People's expressions reflect the
+",A,,0
+2866,"	thought that ""dear God, he did it.""
+",A,,0
+2867,"
+",E,,0
+2868,"					GEORDI
+",C,,0
+2869,"			Captain, we can do it! We can
+",D,,0
+2870,"			modify the transporters.
+",D,,0
+2871,"
+",E,,0
+2872,"					PICARD
+",C,,0
+2873,"			Excellent.
+",D,,0
+2874,"
+",E,,0
+2875,"					GEORDI
+",C,,0
+2876,"			It'll take fifteen years, and a
+",D,,0
+2877,"			research team of a hundred --
+",D,,0
+2878,"
+",E,,0
+2879,"					PICARD
+",C,,0
+2880,"				(dryly)
+",M,,0
+2881,"			Mister La Forge, I believe we will
+",D,,0
+2882,"			postpone.
+",D,,0
+2883,"
+",E,,0
+2884,"					GEORDI
+",C,,0
+2885,"				(with a grin)
+",M,,0
+2886,"			Yes, sir.
+",D,,0
+2887,"
+",E,,0
+2888,"	Geordi EXITS.
+",A,,0
+2889,"
+",E,,0
+2890,"									CUT TO:
+",O,,0
+2891,"
+",E,,0
+2892,"STAR TREK: ""Ensigns of Command"" REV. 7/14/89 - ACT FIVE      56.",H,,0
+2893,"
+",E,,0
+2894,53   EXT. PLANET SURFACE - SHUTTLE LANDING SITE - DAY,S,,0
+2895,"
+",E,,0
+2896,"	Data is inside the shuttle making preparations for
+",A,,0
+2897,"	departure.
+",A,,0
+2898,"
+",E,,0
+2899,"					DATA
+",C,,0
+2900,"			Commander Data to Enterprise.
+",D,,0
+2901,"			I am preparing to leave Tau Cygna
+",D,,0
+2902,"			Five and await rendezvous
+",D,,0
+2903,"			instructions.
+",D,,0
+2904,"
+",E,,0
+2905,"					WORF'S COM VOICE
+",C,,0
+2906,"			Acknowledged. Stand by.
+",D,,0
+2907,"
+",E,,0
+2908,"	Outside the shuttle, Ard'rian approaches. Data sees
+",A,,0
+2909,"	her, emerges from the shuttle to meet her.
+",A,,0
+2910,"
+",E,,0
+2911,"					ARD'RIAN
+",C,,0
+2912,"			Hi.
+",D,,0
+2913,"
+",E,,0
+2914,"					DATA
+",C,,0
+2915,"			Hello, Ard'rian.
+",D,,0
+2916,"
+",E,,0
+2917,"					ARD'RIAN
+",C,,0
+2918,"			The evacuation plan is going well.
+",D,,0
+2919,"			When the transport ship arrives,
+",D,,0
+2920,"			we'll be ready.
+",D,,0
+2921,"				(a beat)
+",M,,0
+2922,"			You succeeded.
+",D,,0
+2923,"
+",E,,0
+2924,"					DATA
+",C,,0
+2925,"			I would not have succeeded without
+",D,,0
+2926,"			your support and insight, and I
+",D,,0
+2927,"			appreciate your assistance.
+",D,,0
+2928,"
+",E,,0
+2929,"					ARD'RIAN
+",C,,0
+2930,"			Good. Then you won't forget me?
+",D,,0
+2931,"
+",E,,0
+2932,"					DATA
+",C,,0
+2933,"			I am incapable of forgetting.
+",D,,0
+2934,"			I will remember every detail of
+",D,,0
+2935,"			my visit with perfect clarity.
+",D,,0
+2936,"
+",E,,0
+2937,"					ARD'RIAN
+",C,,0
+2938,"			But nothing more?
+",D,,0
+2939,"
+",E,,0
+2940,"					DATA
+",C,,0
+2941,"			I do not understand.
+",D,,0
+2942,"
+",E,,0
+2943,"STAR TREK: ""Ensigns of Command"" REV. 7/14/89 - ACT FIVE      57.",H,,0
+2944,"
+",E,,0
+2945,53   CONTINUED:,S,,0
+2946,"
+",E,,0
+2947,"	Ard'rian bites the bullet:
+",A,,0
+2948,"
+",E,,0
+2949,"					ARD'RIAN
+",C,,0
+2950,"			I guess what I really want to know
+",D,,0
+2951,"			is -- do you have any feelings
+",D,,0
+2952,"			for me?
+",D,,0
+2953,"
+",E,,0
+2954,"					DATA
+",C,,0
+2955,"			I have no feelings of any kind.
+",D,,0
+2956,"
+",E,,0
+2957,"	Ard'rian is silent.
+",A,,0
+2958,"
+",E,,0
+2959,"					ARD'RIAN
+",C,,0
+2960,"			No. Of course you don't.
+",D,,0
+2961,"
+",E,,0
+2962,"	Data studies her. She's downcast. Mimicking her
+",A,,0
+2963,"	behavior earlier, he gives her a quick kiss on the
+",A,,0
+2964,"	lips, startling her.
+",A,,0
+2965,"
+",E,,0
+2966,"					ARD'RIAN (cont'd)
+",C,,0
+2967,"			What was that for?
+",D,,0
+2968,"
+",E,,0
+2969,"					DATA
+",C,,0
+2970,"			You appeared to require it.
+",D,,0
+2971,"
+",E,,0
+2972,"					ARD'RIAN
+",C,,0
+2973,"			You observed I was unhappy and
+",D,,0
+2974,"			did what you concluded would make
+",D,,0
+2975,"			me feel better. A purely rational
+",D,,0
+2976,"			deduction.
+",D,,0
+2977,"
+",E,,0
+2978,"	She's still downcast.
+",A,,0
+2979,"
+",E,,0
+2980,"					DATA
+",C,,0
+2981,"			Have I disappointed you?
+",D,,0
+2982,"
+",E,,0
+2983,"					ARD'RIAN
+",C,,0
+2984,"			No, I'm disappointed in myself
+",D,,0
+2985,"			-- for wanting something I know
+",D,,0
+2986,"			I can't have.
+",D,,0
+2987,"				(a beat)
+",M,,0
+2988,"			Data, in so many ways you're
+",D,,0
+2989,"			superior to humans. But you are
+",D,,0
+2990,"			still a machine... without
+",D,,0
+2991,"			emotion.
+",D,,0
+2992,"
+",E,,0
+2993,"					DATA
+",C,,0
+2994,"			Yes.
+",D,,0
+2995,"
+",E,,0
+2996,"STAR TREK: ""Ensigns of Command"" REV. 7/14/89 - ACT FIVE     57A.",H,,0
+2997,"
+",E,,0
+2998,53   CONTINUED: (2),S,,0
+2999,"
+",E,,0
+3000,"					ARD'RIAN
+",C,,0
+3001,"			It's so easy to believe otherwise.
+",D,,0
+3002,"			It's so easy to read things into
+",D,,0
+3003,"			your behavior... and perceive
+",D,,0
+3004,"			feelings where none exist.
+",D,,0
+3005,"				(a beat)
+",M,,0
+3006,"			Well, I am human and I do have
+",D,,0
+3007,"			feelings... silly though they may
+",D,,0
+3008,"			be at times. I like you, Data.
+",D,,0
+3009,"			You're my favorite android.
+",D,,0
+3010,"
+",E,,0
+3011,"					DATA
+",C,,0
+3012,"			But I am the only android you have
+",D,,0
+3013,"			ever met.
+",D,,0
+3014,"
+",E,,0
+3015,"					ARD'RIAN
+",C,,0
+3016,"			Rational to the last.
+",D,,0
+3017,"
+",E,,0
+3018,"STAR TREK: ""Ensigns of Command"" REV. 7/17/89 - ACT FIVE      58.",H,,0
+3019,"
+",E,,0
+3020,53   CONTINUED:	(3),S,,0
+3021,"
+",E,,0
+3022,"	And with a smile, Ard'rian EXITS. Data climbs into
+",A,,0
+3023,"	the shuttle, and the door closes.
+",A,,0
+3024,"
+",E,,0
+3025,"									CUT TO:
+",O,,0
+3026,"
+",E,,0
+3027,54   OMITTED,S,,0
+3028,"
+",E,,0
+3029,55   INT. CAPTAIN'S READY ROOM,S,,0
+3030,"
+",E,,0
+3031,"	Picard is listening to a recording of Data's string
+",A,,0
+3032,"	quartet concert in Ten Forward. DOOR CHIME.
+",A,,0
+3033,"
+",E,,0
+3034,"					PICARD
+",C,,0
+3035,"			Come.
+",D,,0
+3036,"
+",E,,0
+3037,"	Data ENTERS.
+",A,,0
+3038,"
+",E,,0
+3039,"					PICARD (cont'd)
+",C,,0
+3040,"			Welcome home, Mister Data. Well
+",D,,0
+3041,"			done.
+",D,,0
+3042,"
+",E,,0
+3043,"					DATA
+",C,,0
+3044,"			Thank you, sir.
+",D,,0
+3045,"
+",E,,0
+3046,"					PICARD
+",C,,0
+3047,"			The good doctor was kind enough
+",D,,0
+3048,"			to provide me with a recording
+",D,,0
+3049,"			of your concert. Your
+",D,,0
+3050,"			performance shows a good deal
+",D,,0
+3051,"			of feeling.
+",D,,0
+3052,"
+",E,,0
+3053,"					DATA
+",C,,0
+3054,"			As I have lately had to remind
+",D,,0
+3055,"			others, I have no feelings.
+",D,,0
+3056,"
+",E,,0
+3057,"					PICARD
+",C,,0
+3058,"			That's hard to believe; your
+",D,,0
+3059,"			playing is quite beautiful.
+",D,,0
+3060,"
+",E,,0
+3061,"					DATA
+",C,,0
+3062,"			Strictly speaking, it is not
+",D,,0
+3063,"			""my"" playing. It is a precise
+",D,,0
+3064,"			imitation of the techniques of
+",D,,0
+3065,"			Jascha Heifetz and Trenka Bron-Ken.
+",D,,0
+3066,"
+",E,,0
+3067,"STAR TREK: ""Ensigns of Command"" REV. 7/17/89 - ACT FIVE      59.",H,,0
+3068,"
+",E,,0
+3069,55   CONTINUED:,S,,0
+3070,"
+",E,,0
+3071,"					PICARD
+",C,,0
+3072,"			And is there nothing of Data in
+",D,,0
+3073,"			what I'm hearing?
+",D,,0
+3074,"
+",E,,0
+3075,"	Data ponders this.
+",A,,0
+3076,"
+",E,,0
+3077,"					PICARD (cont'd)
+",C,,0
+3078,"			You chose the violinists.
+",D,,0
+3079,"			Heifetz and Bron-Ken had
+",D,,0
+3080,"			radically different styles, but
+",D,,0
+3081,"			you combined them -- successfully.
+",D,,0
+3082,"
+",E,,0
+3083,"					DATA
+",C,,0
+3084,"			I suppose I have learned to be
+",D,,0
+3085,"			innovative... when necessary, sir.
+",D,,0
+3086,"
+",E,,0
+3087,"	Picard nods. He's made his point.
+",A,,0
+3088,"
+",E,,0
+3089,"					PICARD
+",C,,0
+3090,"			Mister Data... I look forward to
+",D,,0
+3091,"			your next concert.
+",D,,0
+3092,"
+",E,,0
+3093,"	On Data's thoughtful expression, we:
+",A,,0
+3094,"
+",E,,0
+3095,56   OMITTED,S,,0
+3096,"
+",E,,0
+3097,"									FADE OUT.
+",O,,0
+3098,"
+",E,,0
+3099,"                        END OF ACT FIVE                         
+",N,act,0
+3100,"
+",E,,0
+3101,"                            THE END                             
+",N,,0
+3102,"
+",E,,0
+3103,"
+",E,,0
+3104,"
+",E,,0
