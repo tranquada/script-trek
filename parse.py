@@ -1,6 +1,8 @@
 import json                            # Python json handling
+import re                              # Python regular expression handling
 import pandas as pd                    # Data handling
 import numpy as np                     # More data handling
+from tqdm import tqdm_notebook as tq   # Progress bar for Jupyter Notebook
 
 
 # MODULE INTRODUCTION
@@ -21,21 +23,32 @@ APOSTROPHES = [39]                     # Byte code for single quote
 PARENTHESES = [40, 41]                 # Byte codes for parentheses
 COMMAS = [44]                          # Byte code for comma
 HYPHENS = [45]                         # Byte code for hyphen
-PERIOD = [46]                          # Byte code for period
+PERIODS = [46]                         # Byte code for period
 SLASHES = [47]                         # Byte code for forward slash
 COLONS = [58]                          # Byte code for colon
 NUMS = [x for x in range(48, 58)]      # Byte code range for numbers
 UPPERS = [x for x in range(65, 91)]    # Byte code range for uppercase chars
 LOWERS = [x for x in range(97, 123)]   # Byte code range for lowercase chars
 EXOTICS = [x for x in range(128, 256)]  # Byte code range for exotic chars
+LETTERS = r'\w'                        # RegEx string for word chars
+NONLETTERS = r'\W'                     # RegEx string for non-word chars
+WHITESPACES = r'\s'                    # RegEx string for whitespace chars
+NONWHITESPACES = r'\S'                 # RegEx string for non-whitespace chars
+
 
 # PANDAS UTILITY FUNCTIONS
+def df_append(what, where):
+    """Convenience function to append a dictionary of results to an existing
+    df for aggregating results."""
+
+    where = where
 
 
-# PARSING UTILITY functions
+# PARSING UTILITY FUNCTIONS
 def encode(data, code):
     """Produces the type signature of the input string using the appropriate
     code mapping specified."""
+
     return [MAPPINGS[code].iloc[char] for char in data]
 
 
@@ -55,6 +68,56 @@ class TxtLoader(object):
         )
         # Convert raw strings into lists of tokens
         self.data['tokens'] = np.array([x.split() for x in self.data['raw']])
+        # Count key characters for analysis
+        self.data['metrics'] = self.get_metrics()
+
+    def byte_count(self, codelist, line):
+        total = 0
+        for x in codelist:
+            total += self.data['bytes'][line].count(x)
+        return total
+
+    def regex_count(self, codestring, line):
+        return len(re.findall(codestring, self.data['raw'][line]))
+
+    def token_count(self, line):
+        return len(self.data['tokens'][line])
+
+    def get_metrics(self):
+        results = pd.DataFrame()
+        for i in tq(range(len(self.data['raw']))):
+            metrics = {
+                'line_idx': i,
+                'chars': len(self.data['raw'][i]),
+                'clean': self.data['raw'][i].strip(),
+                'min_char': min(self.data['bytes'][i]),
+                'max_char': max(self.data['bytes'][i]),
+                'n_tab': self.byte_count(TABS, i),
+                'n_space': self.byte_count(SPACES, i),
+                'n_quote': self.byte_count(QUOTES, i),
+                'n_apostrophe': self.byte_count(APOSTROPHES, i),
+                'n_parenthesis': self.byte_count(PARENTHESES, i),
+                'n_comma': self.byte_count(COMMAS, i),
+                'n_hyphen': self.byte_count(HYPHENS, i),
+                'n_period': self.byte_count(PERIODS, i),
+                'n_slash': self.byte_count(SLASHES, i),
+                'n_colon': self.byte_count(COLONS, i),
+                'n_nums': self.byte_count(NUMS, i),
+                'n_uppers': self.byte_count(UPPERS, i),
+                'n_lowers': self.byte_count(LOWERS, i),
+                'n_exotics': self.byte_count(EXOTICS, i),
+                'n_letters': self.regex_count(LETTERS, i),
+                'n_nonletters': self.regex_count(NONLETTERS, i),
+                'n_whitespaces': self.regex_count(WHITESPACES, i),
+                'n_nonwhitespaces': self.regex_count(NONWHITESPACES, i),
+                'n_tokens': self.token_count(i),
+            }
+            results = results.append(metrics, ignore_index=True)
+        cols = list(results.columns.values)
+        for x in cols:
+            if x != 'clean':
+                results[x] = results[x].astype(int)
+        return results.set_index('line_idx')
 
     def encode_sig(self, code):
         """Creates a new signature encoding for all lines based on the given
