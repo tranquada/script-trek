@@ -37,11 +37,6 @@ NONWHITESPACES = r'\S'                 # RegEx string for non-whitespace chars
 
 
 # PANDAS UTILITY FUNCTIONS
-def df_append(what, where):
-    """Convenience function to append a dictionary of results to an existing
-    df for aggregating results."""
-
-    where = where
 
 
 # PARSING UTILITY FUNCTIONS
@@ -71,6 +66,7 @@ class TxtLoader(object):
         # Count key characters for analysis
         self.data['metrics'] = self.get_metrics()
 
+    # Counting functions
     def byte_count(self, codelist, line):
         total = 0
         for x in codelist:
@@ -84,6 +80,9 @@ class TxtLoader(object):
         return len(self.data['tokens'][line])
 
     def get_metrics(self):
+        """Method for extracting key line measurements for analysis. Loops over
+        lines and calls counting functions to extract features."""
+
         results = pd.DataFrame()
         for i in tq(range(len(self.data['raw']))):
             metrics = {
@@ -133,3 +132,7 @@ class TxtLoader(object):
         desired filename for CSV export."""
 
         pd.DataFrame(self.data['raw']).to_csv(file)
+
+    def import_training(self, file):
+        self.data['training'] = pd.read_csv(
+            file, index_col='line_idx').drop(['line'], axis=1)
